@@ -1,0 +1,26 @@
+# Python y Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Configuración privada
+.env
+.env.*
+!.env.example
+
+# Datos externos y productos voluminosos
+/data/raw/
+/data/processed/
+/Productos/
+/outputs/
+
+# Archivos temporales
+~$*
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Conservar versionados notebooks, documentación, parámetros,
+# selecciones manuales y ejemplos pequeños con permiso de redistribución.
