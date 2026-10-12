@@ -1,69 +1,114 @@
-# Geomorfología fluvial y terrazas costeras
+# Fluvial profiles, coastal terraces and conditional erodibility — central Chile
 
-Notebooks de Python para analizar topografía, perfiles longitudinales de ríos, χ, pendiente normalizada (ksn), candidatos a knickpoints, terrazas y relaciones espaciales con fallas y unidades geológicas.
+**Research snapshot: 12 October 2026.** Author: Raimundo Sanchez Mosqueira, Geology, Universidad de Chile. This repository documents my Python thesis workflow and its current development during a research stay at Stanford. It supports inspection of the implementation, assumptions and unresolved decisions.
 
-Proyecto de investigación en desarrollo de Raimundo Sanchez Mosqueira, estudiante de Geología de la Universidad de Chile. El flujo se desarrolla en el contexto de una memoria de título sobre geomorfología fluvial y evolución del relieve costero de Chile central.
+Current code comes from `Notebook_post_auditoria`, including changes saved through 12 October. The `20261005` filenames identify the workflow generation, not the date of every subsequent edit. Earlier notebooks remain available through Git history.
 
-## Estado del proyecto
+## Scientific objective and current direction
 
-Los notebooks son herramientas de investigación que requieren configurar rutas, datos y decisiones de análisis para cada aplicación. Todavía no se ha verificado su ejecución completa en un entorno nuevo. Las figuras y resultados guardados en un notebook no reemplazan esa verificación.
+I am investigating how river-profile morphology, knickpoints, coastal terrace markers and mapped geology relate to landscape evolution in central Chile. The regional workflow builds profiles for 18 outlets. Detailed calibration focuses on six rivers and tests the effects of reference elevation, sample uplift rate, crossing choice and smoothing on conditional K and modeled travel times.
 
-Esta documentación describe las versiones inspeccionadas el 2 de octubre de 2026. Los seis notebooks se incluyen en `notebooks/`, sin salidas guardadas. Las rutas personales fueron sustituidas por rutas de ejemplo bajo `C:\datos`; deben adaptarse antes de ejecutar. Los originales de investigación se conservaron sin cambios.
+The central question is whether a downstream calibration can be transferred toward a manually selected knickpoint, given lithological changes, alluvial reaches, structural context and terrace-correlation uncertainty. Spatial coincidence and a good χ–elevation fit alone do not establish that transfer or a tectonic origin.
 
-## Flujo de trabajo
+**This is ongoing research, not a validated tectonic chronology.** The repository includes code and an outlet catalogue. The DEM, geological layers, exported profiles and age workbooks are external. This publication review did not execute the notebooks or recalculate results.
 
-| Orden | Notebook | Función |
+## Start here — human or AI review
+
+Read [Calibracion_K_t.ipynb](notebooks/Calibracion_K_t.ipynb) for the latest 30-scenario K/time analysis and K8 crossing/smoothing sensitivity, and [Litologia_perfiles_comparaciones.ipynb](notebooks/Litologia_perfiles_comparaciones.ipynb) for lithology assignments and regional profile comparisons.
+
+For an AI-assisted review, provide this README, [AI_CONTEXT.md](AI_CONTEXT.md) and the relevant files from [ai_context/](ai_context/). That folder contains code-only notebook snapshots with cell boundaries. They are reading aids, not standalone scripts; notebooks remain authoritative. Include the shared Python module and JSON configuration when reviewing the regional infrastructure.
+
+## Workflow and files
+
+| Branch | Notebook | Role |
 | --- | --- | --- |
-| 1 | `AnalisisTopografico.ipynb` | Carga del DEM, relleno de depresiones, dirección de flujo D8, área de drenaje y delimitación de cuencas desde outlets. |
-| 2 | `Perfiles_chi_ksn.ipynb` | Extracción de cauces principales, perfiles longitudinales, integración de χ, ksn local, sensibilidad a ventanas y exportación de perfiles y redes. |
-| 3 | `AnalisisPerfiles.ipynb` | Delimitación de tramos, sensibilidad a la concavidad, ajustes χ–elevación y comparación y selección manual de candidatos a knickpoints. |
-| 4 | `AnalisisTerrazas.ipynb` | Asociación de terrazas con perfiles, cruces por cota, selección de tramos y escenarios condicionales de K y tiempo de propagación. |
-| 5 | `Interpretaciones_K_deltaT.ipynb` | En la versión revisada: carga y revisión de terrazas y knickpoints, lectura de selecciones desde Excel y visualización. El nombre no implica que implemente por sí solo el cálculo completo de K y Δt. |
-| Complementario | `Perfiles_y_fallas.ipynb` | Transectas topográficas a fallas, cruces río–falla e integración de perfiles con geología, knickpoints y terrazas. Requiere capas adicionales. |
+| Regional 1 | [AnalisisTopografico_20261005](notebooks/AnalisisTopografico_20261005.ipynb) | DEM/CRS checks, D8 hydrology, area, 18 basins, QC and manifests. |
+| Regional 2 | [Perfiles_chi_ksn_20261005](notebooks/Perfiles_chi_ksn_20261005.ipynb) | Main-channel extraction, longitudinal profiles, trapezoidal χ, local ksn and window sensitivity. |
+| Regional 3 | [AnalisisPerfiles_20261005](notebooks/AnalisisPerfiles_20261005.ipynb) | Regional fits, local candidates, optional TopoToolbox/external methods, manual selections and rejection/coincidence tables. |
+| Regional 4 | [AnalisisTerrazas_20261005](notebooks/AnalisisTerrazas_20261005.ipynb) | Terrace associations, projections, elevation crossings and vertical-uncertainty alternatives; Excel/CSV selection reconciliation. |
+| Spatial branch | [Perfiles_y_fallas_20261005](notebooks/Perfiles_y_fallas_20261005.ipynb) | Integrated geology, contacts, river–fault intersections/proximities; optional CHAF transects. Source updated on 12 October. |
+| Regional interpretation | [Interpretaciones_K_deltaT_20261005](notebooks/Interpretaciones_K_deltaT_20261005.ipynb) | Explicit decision table and gated conditional K/Δt scenarios. Empty decisions remain pending. |
+| Detailed lithology | [Litologia_perfiles_comparaciones](notebooks/Litologia_perfiles_comparaciones.ipynb) | χ recalculated at θ=0.40; manual-point relocation, mapped units, slope/ksn and concavity sensitivity. |
+| Detailed calibration | [Calibracion_K_t](notebooks/Calibracion_K_t.ipynb) | Six rivers, 30 sample-rate/reference-elevation combinations, K, outlet-to-KP times, diagnostic fits, lithology and K8 sensitivity. |
+| Supplementary mapping | [Litologia_mapa_knickpoints_20261005](notebooks/Litologia_mapa_knickpoints_20261005.ipynb) | Earlier focused mapping experiment, including candidates and proposed alluvial intervals. |
+| Alternative calibration | [Analisis_K_rios_seleccionados_20261005](notebooks/Analisis_K_rios_seleccionados_20261005.ipynb) | Earlier scenarios comparing apparent relief/age and published-rate calibration, with explicit alluvial exclusions; separate from the latest 30-scenario calculation. |
 
-El flujo intercambia archivos; no es necesario compartir la misma sesión de Python entre notebooks. Sí es necesario que las rutas apunten a productos compatibles de una misma corrida.
+Keep the regional notebooks beside [post_auditoria_20261005.py](notebooks/post_auditoria_20261005.py), [configuration](notebooks/configuracion_post_auditoria_20261005.json) and [outlets](notebooks/outlets_20261005.csv). Run regional stages 1–4 in order. The spatial branch can start after profiles; optional terrace overlays require stage 4. Interpretation needs the relevant exports and explicit decisions. Detailed notebooks load exported products in their own fresh kernel.
 
-## Requisitos
+## Geometry, parameters and provenance
 
-Dependencias identificadas en el código: NumPy, pandas, SciPy, Matplotlib, Rasterio, GeoPandas, Shapely, GDAL/OGR/OSR e IPython. Se requiere además Jupyter para trabajar con los notebooks y un motor compatible para leer Excel, por ejemplo openpyxl.
+The preceding workflow audit records a 12 m DEM in UTM 18S, EPSG:32718. The updated code checks actual resolution rather than using the old fixed `30m` label. The DEM was not reopened or reprocessed for this publication.
 
-`TopoAnalysis` se utiliza en el procesamiento topográfico y la extracción de perfiles. `topotoolbox` se importa en la comparación de métodos de `AnalisisPerfiles.ipynb`. Antes de distribuir un entorno instalable deben documentarse sus fuentes y versiones exactas, incluyendo posibles modificaciones locales. No se proporciona todavía un entorno de instalación validado.
+Distance increases upstream from the loaded outlet. Elevation/distance use metres and area uses m². Main-channel extraction follows the upstream candidate with greatest contributing area; original DEM elevations define profiles, while conditioned products support routing.
 
-## Datos y configuración
+| Parameter | Regional workflow | Detailed lithology/calibration |
+| --- | --- | --- |
+| θ | 0.45 | 0.40; χ recomputed from geometry |
+| A0 | 1,000,000 m² | 1,000,000 m² |
+| n in interpretation | 1 | 1 |
+| Channel threshold | 1,000,000 m² | Inherited profiles; no fresh channel extraction |
+| Initial local slope window | 500 m; 250/500/1000 m sensitivity | Separate slope and smoothing sensitivities |
 
-Los datos de investigación no se incluyen automáticamente con el código. Consulte `data/README.md` para conocer las entradas necesarias.
+Local ksn uses a distance–elevation slope window; calibration uses a χ–elevation segment fit. Non-positive slopes are not converted with an absolute value. These quantities, θ values and window settings must be distinguished before comparing results.
 
-1. Prepare el entorno y los datos correspondientes al análisis.
-2. Ajuste las rutas de entrada y salida de cada notebook: las versiones publicadas contienen rutas de ejemplo de Windows y referencias a carpetas fechadas.
-3. Compruebe el sistema de referencia, las unidades, la extensión y la alineación de las grillas. El caso actual utiliza referencias a UTM 18S (EPSG:32718).
-4. Configure los outlets, los identificadores de río y los parámetros científicos. En `Perfiles_chi_ksn.ipynb` se observan A0 = 1 000 000 m², θ de referencia = 0,45, umbral de área = 1 000 000 m² y ventana local inicial = 500 m; son parámetros del caso de estudio, no valores universales.
-5. Ejecute las celdas de forma secuencial, comprobando las salidas de cada etapa antes de continuar. Algunas etapas requieren selección manual e interacción gráfica.
-6. Conserve los manifiestos, parámetros y selecciones que permitan identificar la corrida usada en los resultados posteriores.
+The regional run is `20261005_post_auditoria_01`. Products are dated under `Productos/post_auditoria/<run_id>/<stage>`, indexed by `manifest_<run_id>.json`. Manifests contain paths, SHA-256 hashes, configuration and export states. `completo` means the stage recorded an export, not that its interpretation is final or its dependencies remain current.
 
-## Interpretación y limitaciones
+Regional manual-selection loading validates hashes and indices. Detailed notebooks rematch manual KP coordinates/elevations with XY and Z tolerances of 0.10 m, keeping original/current hashes and rejected points. These acceptance policies differ.
 
-- Los candidatos automáticos a knickpoints requieren revisión geomorfológica.
-- Las asociaciones espaciales entre fallas, terrazas y cambios de pendiente no establecen por sí solas causalidad tectónica.
-- K y Δt dependen de las hipótesis del modelo y de las selecciones de terrazas y tramos. El tiempo de propagación modelado no equivale automáticamente a una edad tectónica.
-- En el escenario implementado en `AnalisisTerrazas.ipynb`, la tasa de levantamiento debe definirse explícitamente y los supuestos de equilibrio y transferencia de K deben activarse de forma deliberada.
-- Las versiones revisadas todavía mezclan referencias a distintas fechas de productos; es necesario armonizarlas antes de reproducir el flujo completo.
-- `Perfiles_y_fallas.ipynb` incluye celdas de diagnóstico de lectura del DEM. Su ejecución completa no se ha validado en esta revisión.
+## Equations and time origins
 
-## Próximos pasos
+```text
+χ(s) = integral from outlet to s of (A0/A(s'))^θ ds'  [trapezoidal integration]
+z = b + Mχ χ                                        [free-intercept regression]
+ksn_segment = Mχ A0^θ
+K = (U_m_ka/1000) / ksn_segment                      [n=1, U assumed equal to erosion]
+t_ka = Δχ / (K A0^θ) / 1000                         [constant K, stationary area]
+```
 
-- [ ] Sustituir rutas personales por una configuración portable.
-- [ ] Documentar y fijar el entorno que efectivamente funciona.
-- [ ] Incorporar un conjunto pequeño de datos con permiso de redistribución.
-- [ ] Verificar el flujo desde un entorno nuevo.
-- [ ] Completar las referencias bibliográficas y las versiones de las dependencias científicas.
-- [x] Agregar licencia MIT para las contribuciones propias.
-- [ ] Preparar una primera versión estable y sus instrucciones de citación.
+For θ=0.40, dimensional K has units m^0.2/year; for θ=0.45, m^0.1/year. Mχ and dimensional ksn are different quantities. Do not apply another A0^θ correction to K after using this formula.
 
-## Atribución, licencia y contribuciones
+**Time origins differ.** Regional interpretation calibrates between an explicit bedrock start and the terrace crossing, then computes Δχ from that crossing to the KP. `Calibracion_K_t` computes time from the loaded outlet (`s=0`) to the manual KP. Its labels say trimmed outlet, but the notebook does not itself trim/reconstruct profiles. Input origin and alluvial coverage must be independently checked. These times are not directly interchangeable or automatically tectonic ages.
 
-El flujo utiliza software y métodos de terceros que deben citarse por separado. TopoAnalysis y TopoToolbox no son desarrollos propios de este proyecto. Las licencias y atribuciones de código o datos externos deben conservarse.
+## Six-river scenarios and K8
 
-Las contribuciones propias de este proyecto se distribuyen bajo la licencia MIT: consulte `LICENSE`. Las dependencias y los materiales de terceros conservan sus propias licencias. Esta licencia no concede derechos sobre datos externos.
+| ID | River | Sample-rate alternatives in latest calibration |
+| --- | --- | --- |
+| 3 | Estero Quebrada Honda | CONT 11 |
+| 4 | Estero Malhueco | CONT 11 |
+| 7 | Estero de Chanco | PUHE 10, PUHE 11; exploratory case |
+| 8 | Río Rahue | PUHE 10, PUHE 11 |
+| 9 | Río Curanilahue | PUHE 10, PUHE 11 |
+| 10 | Río Curanipe | PUHE 10, PUHE 11; correlations need review |
 
-Para informar problemas, abra un issue que incluya el notebook, el mensaje de error, el entorno y los pasos necesarios para reproducirlo. Las propuestas de cambios deben explicar su efecto en el método o en los resultados.
+Each sample-rate alternative is combined with two configured terrace elevations and the sample's own elevation: 30 scenario definitions. `Ages_Final.xlsx` supplies ages, sample elevations and `Urate (m/ka)`; a separate catalogue supplies terrace elevations. These combinations are sensitivity scenarios, not proof that each terrace was dated with that sample. OD values are separately transcribed in code, not read from `Ages_Final`. Primary age/rate provenance was not reverified in this publication review.
 
+The base calculation defaults to the first elevation crossing unless `CRUCES_ELEGIDOS` overrides it. It fits outlet–crossing with at least five original nodes and an interpolated endpoint, records alternatives and rejects unsuitable fits. Five nodes are a numerical threshold, not a quality guarantee.
+
+In K8, **K1 = outlet–crossing, K2 = crossing–KP, K3 = outlet–KP**. These are three fitting intervals using the selected rate, not independent physical measurements. All available crossings are examined, with the first marked principal in each model. Multiple manual KPs require explicit selection.
+
+K8 supports raw elevation, Savitzky–Golay or moving-average smoothing and optional joint display. Each curve gets its own crossings, fits and K1/K2/K3. Smoothing preserves distance, area, χ and KP position; elevations are filtered on a regular distance grid, with effective odd-node window and border treatment recorded. **K8 does not replace the earlier base K table or recompute its travel-time table with smoothed elevations.**
+
+## Geological context and unresolved work
+
+Mapped units/faults provide context. Bilateral river-bank queries can resolve narrow mapping gaps using a configurable 20 m search limit; this is an operational setting, not cartographic accuracy. Detailed controls flag rivers 3 and 4 as lacking confirmed map coverage. Seams, ambiguous overlaps and proximity remain distinct from demonstrated contacts or tectonic controls.
+
+This release passed JSON/Jupyter-schema and Python syntax checks for ten notebooks and the shared module. Public scientific cell sources match the originals after declared personal-path replacement. See [review notes](docs/REVIEW_20261012.md) and [publication hashes](docs/publication_provenance_20261012.json).
+
+Read-only local manifest checks matched checked files in topography, profiles, profile analysis, terraces and faults; four large entries were not rehashed. **Interpretation has a changed upstream terrace-manifest dependency and must be regenerated.** This is provenance evidence, not a numerical rerun.
+
+Remaining work:
+
+- Regenerate interpretation after reviewing upstream terrace exports and scenario decisions.
+- Justify sample–terrace correlations, rate transfer, datum/sea-level assumptions and alluvial/bedrock limits.
+- Check loaded profile origins and geological compatibility along the extrapolation reach.
+- Update the explicit lithology date if new products are adopted; K7 currently uses `20261006_132435_105931`.
+- Validate optional method adapters and calculations in the intended environment.
+- Document exact package sources/versions and a redistributable executable example.
+
+## Installation and reuse
+
+Start Jupyter in `notebooks/` and review paths before running cells. Personal paths are replaced by examples under `C:\datos`. The regional JSON controls common paths; detailed notebooks contain extra path blocks. External manifests store machine-specific paths/hashes; moving them requires deliberate provenance handling or fresh exports.
+
+Dependencies include NumPy, pandas, SciPy, Matplotlib, Rasterio, GeoPandas, Shapely, IPython/Jupyter, an Excel engine such as openpyxl and TopoAnalysis. TopoToolbox is optional for candidate comparison. An exact validated environment is pending; no untested lockfile is supplied.
+
+See [data requirements](data/README.md). Original contributions use the [MIT license](LICENSE). External software/data retain their licenses and attribution; TopoAnalysis and TopoToolbox are not my own libraries. Questions/corrections can be recorded as repository issues.

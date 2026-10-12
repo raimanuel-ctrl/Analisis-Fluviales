@@ -1,9 +1,9 @@
-# Notebooks de investigación
+# Current research notebooks
 
-Consulta el [README principal](../README.md) para conocer el orden de ejecución y las dependencias.
+Ten notebooks from `Notebook_post_auditoria`, reviewed for publication on 2026-10-12. See the [root README](../README.md) for execution order and scientific context.
 
-Los seis notebooks conservan el código científico y el orden de las celdas. Se retiraron las salidas y los contadores de ejecución; las rutas personales se sustituyeron por rutas de ejemplo bajo `C:\datos`. Los originales no se modificaron.
+Keep the regional notebooks beside `post_auditoria_20261005.py`, `configuracion_post_auditoria_20261005.json` and `outlets_20261005.csv`. Start Jupyter in this directory, restart the kernel between notebooks and run cells in order.
 
-Antes de ejecutar, ajusta todas las rutas a tus datos locales. Los productos, manifiestos, catálogos y selecciones deben corresponder a una misma corrida. Esta primera versión conserva referencias a diferentes carpetas fechadas y no ha sido ejecutada de principio a fin en un entorno nuevo.
+Configure example paths under `C:\datos` in both the regional JSON and detailed notebook path blocks. No DEM or research products are included. Moving external products does not automatically update their manifest paths/hashes.
 
-`AnalisisPerfiles.ipynb` requiere `topotoolbox` para comparar métodos y un backend gráfico interactivo para la selección manual. `Perfiles_y_fallas.ipynb` incluye celdas de diagnóstico que deben revisarse individualmente.
+Dated names are retained for code/provenance references and do not imply that edits stopped on 5 October. Saved outputs and execution counts are removed; original working notebooks were not changed. See [code-only reading snapshots](../ai_context/). Earlier versions remain in Git history.

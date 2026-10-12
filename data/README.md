@@ -1,20 +1,20 @@
-# Datos requeridos
+# External scientific data
 
-Los datos científicos no están incluidos en esta distribución.
+The repository includes `notebooks/outlets_20261005.csv` for the 18 river outlets. Other scientific inputs/products are not distributed in this release.
 
-| Etapa | Entradas |
+| Branch | Required inputs |
 | --- | --- |
-| Topografía | DEM georreferenciado y coordenadas de outlets; el caso actual referencia `TDM_cut_UTM18.tif`. |
-| Perfiles | DEM original y productos de área y dirección de flujo. |
-| Análisis de perfiles | CSV de perfiles y `manifest.json`. |
-| Terrazas | Perfiles, `catalogo_candidatos.csv`, `Terrazas_revisadas_UTM18S.xlsx` y `Revision_muestras_Jara_2015.xlsx`. |
-| Selecciones | `terrazas_kp_por_rio.xlsx` y entradas anteriores. |
-| Fallas y geología | DEM, capas de fallas, red fluvial, unidades geológicas, terrazas y knickpoints. |
+| Topography | Original georeferenced DEM, outlets and regional JSON configuration. |
+| Profiles | DEM and completed topography manifest/products. |
+| Profile analysis | CSV profiles/manifest, manual KP CSV and optional candidate tables. |
+| Terraces | Profiles, terrace workbook, sample-review workbook and selection workbook. |
+| Faults/geology | Profiles, integrated polygons/faults, CHAF traces and optional terrace exports. |
+| Detailed lithology | Profiles/manifest, manual KP CSV, polygons/faults, optional candidates/context tables. |
+| Latest K/time | Profiles, manual KP CSV, `Ages_Final.xlsx`, terrace catalogue, declared outlet shapefile, dated lithology CSV/provenance JSON. |
+| Regional interpretation | Valid upstream products and an explicitly populated scenario CSV. |
 
-Revisar las columnas y validaciones en cada notebook. Los shapefiles requieren sus archivos asociados.
+The regional JSON and detailed path blocks specify inputs. Shapefiles require associated files. Validate CRS and units; the current case uses EPSG:32718.
 
-Para cada conjunto de datos, documentar fuente, autoría, licencia, CRS, unidades y transformaciones. Distribuir únicamente datos con permiso; para los demás, indicar cómo obtenerlos.
+Profile geometry fields: `distancia_m`, `elevacion_m`, `area_m2`, `x_utm`, `y_utm`. Manifests record run IDs, exact paths and SHA-256 hashes; relocating files requires deliberate handling or fresh exports.
 
-Estructura propuesta: `raw/` para datos originales externos y `processed/` para productos grandes, ambas excluidas por `.gitignore`; `example/` para un futuro ejemplo pequeño redistribuible.
-
-Las selecciones manuales y parámetros deben conservarse en archivos pequeños versionados, por ejemplo en `config/`. No tratarlos como productos descartables.
+For distributed data, record authorship, source, citation, license, CRS, units and transformations. Explain how to obtain restricted inputs. Large data under `raw/` and `processed/` are ignored; a small redistributable example remains pending. Shareable manual selections and parameter decisions should be versioned, because automatic detection cannot reconstruct them.

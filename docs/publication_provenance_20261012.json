@@ -1,0 +1,76 @@
+{
+  "snapshot_date": "2026-10-12",
+  "source_folder": "Notebook_post_auditoria",
+  "notebooks": [
+    {
+      "file": "Analisis_K_rios_seleccionados_20261005.ipynb",
+      "cells": 13,
+      "original_sha256": "4ad4760555a5b73727120611ab5e2c2e3c1e4e6c881e699fbe55c5a557c2fb2d",
+      "published_sha256": "cf97729db601192f5f2d088b9e290f9b62cca3ed65abf79a2193ea9f8eff5a4a",
+      "modifications": "Personal paths replaced; outputs/execution counters and transient metadata removed; cell IDs supplied if absent. Scientific cell sources otherwise preserved. Editorial wording generalized in a Markdown cell; executable cell contents unchanged."
+    },
+    {
+      "file": "AnalisisPerfiles_20261005.ipynb",
+      "cells": 31,
+      "original_sha256": "5aa854240948d228cac19fe03edf5adfa2af22bd9c480d81e9b2f91824009122",
+      "published_sha256": "435dd8d0c8ebea4c9be2013db5d69b703f20438a09984a8e410aaec1cbd48888",
+      "modifications": "Personal paths replaced; outputs/execution counters and transient metadata removed; cell IDs supplied if absent. Scientific cell sources otherwise preserved."
+    },
+    {
+      "file": "AnalisisTerrazas_20261005.ipynb",
+      "cells": 14,
+      "original_sha256": "13cf991f63e92e2543e3bf37f6e4728af893cac0db34bf97ad24ff3e0a3de427",
+      "published_sha256": "3172d4d1399008210ce40213257d32447f626e8fe410b437a2ca9bf847ba8a4e",
+      "modifications": "Personal paths replaced; outputs/execution counters and transient metadata removed; cell IDs supplied if absent. Scientific cell sources otherwise preserved."
+    },
+    {
+      "file": "AnalisisTopografico_20261005.ipynb",
+      "cells": 17,
+      "original_sha256": "efe7c66e228dc375ba09e4a43a33a2c95efdc7e6007febad61c190ae3962c4a0",
+      "published_sha256": "f811faa6c831c7bfca0a00d012c980e6635c47b23624784010951e27de4f4d4a",
+      "modifications": "Personal paths replaced; outputs/execution counters and transient metadata removed; cell IDs supplied if absent. Scientific cell sources otherwise preserved."
+    },
+    {
+      "file": "Calibracion_K_t.ipynb",
+      "cells": 22,
+      "original_sha256": "9e095d38ef32c8378b0d3995fa7ff727318c6d2c0a5f2dbf2ee4390838b89244",
+      "published_sha256": "78eaeb547b372ed279573d478ea31e6da8142e00a1bf9a7deb3ca232fe579dc1",
+      "modifications": "Personal paths replaced; outputs/execution counters and transient metadata removed; cell IDs supplied if absent. Scientific cell sources otherwise preserved."
+    },
+    {
+      "file": "Interpretaciones_K_deltaT_20261005.ipynb",
+      "cells": 7,
+      "original_sha256": "b153f2496170a96e433e86ecfb7e344a79bed8cdffc41431145e4ffd0331fbbf",
+      "published_sha256": "9ec89fce0244298cddad9952a509a55e0430b647c5b27047da79af25ce929694",
+      "modifications": "Personal paths replaced; outputs/execution counters and transient metadata removed; cell IDs supplied if absent. Scientific cell sources otherwise preserved."
+    },
+    {
+      "file": "Litologia_mapa_knickpoints_20261005.ipynb",
+      "cells": 12,
+      "original_sha256": "36ad5f9986a6ed30f8f8db4cf9ef069b0c3e5e408fcf6518d6c0eaff79a44663",
+      "published_sha256": "a36c1241fed4bc5c88c1feff36b689dfd0c10dc871f1bcff7bb220c8e5c12c6d",
+      "modifications": "Personal paths replaced; outputs/execution counters and transient metadata removed; cell IDs supplied if absent. Scientific cell sources otherwise preserved."
+    },
+    {
+      "file": "Litologia_perfiles_comparaciones.ipynb",
+      "cells": 15,
+      "original_sha256": "648342517e0557e03eccebaa55ac8e82bded5f2191576667aafa25e38e756b32",
+      "published_sha256": "8a27b9c60facd17d63ccd99c51aeac2b55213e3c8e143edb6e6426a7af35e29e",
+      "modifications": "Personal paths replaced; outputs/execution counters and transient metadata removed; cell IDs supplied if absent. Scientific cell sources otherwise preserved."
+    },
+    {
+      "file": "Perfiles_chi_ksn_20261005.ipynb",
+      "cells": 14,
+      "original_sha256": "f2d885dbb36ebf015b36ef2a488349c0c1a7d19d44e6a43edbf8fc0b71264c76",
+      "published_sha256": "e3addb852c15be78192f3aae4b401f187d5cf87383d877f31cfec65c0ae18e5e",
+      "modifications": "Personal paths replaced; outputs/execution counters and transient metadata removed; cell IDs supplied if absent. Scientific cell sources otherwise preserved."
+    },
+    {
+      "file": "Perfiles_y_fallas_20261005.ipynb",
+      "cells": 16,
+      "original_sha256": "006673917158060847f55aa43eb4cd1484e244f0f00e2c989702a2d599da858c",
+      "published_sha256": "8725124a2e23b1c64edf7dec2afbddf948f308e1c7a594cc8a4b12686d88108f",
+      "modifications": "Personal paths replaced; outputs/execution counters and transient metadata removed; cell IDs supplied if absent. Scientific cell sources otherwise preserved."
+    }
+  ]
+}

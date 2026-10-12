@@ -1,5 +1,14 @@
 # Registro de cambios
 
+## 2026-10-12 — Updated research workflow for review
+
+- Replaces six initial notebooks with ten current notebooks; prior versions remain in Git history.
+- Adds shared provenance/QC module, configuration and 18-outlet catalogue.
+- Includes latest six-river K/time calibration, lithology comparisons and crossing/smoothing sensitivity.
+- Provides English README, AI context and code-only reading snapshots.
+- Records static/schema checks and the stale interpretation dependency.
+- Removes saved outputs and personal paths while preserving scientific cell code and original files.
+
 ## 2026-10-02 — Primera distribución del código
 
 - Se incorporan seis notebooks de investigación y documentación de su flujo.
