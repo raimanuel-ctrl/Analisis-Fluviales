@@ -1,0 +1,36 @@
+GEOLOGIA INTEGRADA — PRODUCTO PRELIMINAR
+
+Abrir Geologia_unidades.shp en QGIS; el QML homonimo aplica los colores.
+Geologia_fallas.shp contiene lineas y debe abrirse por separado.
+Ambos en WGS84 / UTM18S, EPSG:32718. Conservar juntos todos los archivos auxiliares SHP.
+
+CODIGOS Y ANALOGIAS
+codigo y cod_orig conservan los codigos de origen: no se transformaron analogias en equivalencias demostradas.
+Chanco y Jorquera comparten simbologia para codigos identicos. En Chanco los nombres prestados de Jorquera siguen siendo preliminares: no existe leyenda original disponible.
+eq_cod propone comparaciones, eq_tipo indica su alcance. equivalencias.csv contiene justificacion y paginas impresas.
+grupo_lito permite una visualizacion por familias amplias; no significa igual resistencia a la erosion, edad ni continuidad estratigrafica.
+SE se compara regionalmente con DPelt, no con CPed (Serie Occidental).
+Pzg NO se sustituye por Csmg: tonalita/granodiorita indiferenciada no equivale automaticamente a monzogranito.
+Jg? y Trpcmq conservan sus nombres: sus semejanzas con Jmm y Trspg son hipotesis, no correlaciones publicadas demostradas aqui.
+Hsva y Hf se agrupan como depositos fluviales sin afirmar identidad de cuerpos o edades.
+Las unidades de Chanco sin descripcion corroborada permanecen sin caracterizacion confirmada.
+
+MOSAICO Y LIMITES
+En solapes se prioriza Jorquera > Chanco > Gajardo. Es una regla cartografica, no una validacion geologica.
+No se disolvieron unidades a traves de las cartas, ni se rellenaron huecos ni se ajustaron sus bordes artificialmente.
+El GPKG conserva unidades_antes_mosaico, solapes_recortados y cobertura_fuentes para auditarlo.
+Los bordes entre cartas NO son necesariamente contactos geologicos. No interpretar automaticamente un cambio de codigo en la costura como un contacto.
+Jorquera procede del PDF vectorial 1:100000; Chanco de clasificacion preliminar de raster sin leyenda; Gajardo de trazado aproximado del recorte 1:250000.
+escala=0 significa escala no verificada, no escala cero.
+uso_metr=0 es una advertencia conservadora: no hay validacion suficiente para distancias precisas KP-contacto/falla. No se recalculo ni mejoro la precision al unir.
+
+FALLAS
+La capa junta trazas, no reconstruye estructuras completas ni asigna cinematica.
+Jorquera conserva 891 fragmentos del PDF; Chanco 23 trazas preliminares; Gajardo 14 fallas/lineamientos preliminares.
+No se unieron automaticamente fragmentos ni se eliminaron duplicados entre fuentes: para medir proximidades deben revisarse y depurarse.
+
+FUENTES REVISADAS
+Jorquera et al. (2023), texto CGCH GB214: pp.9-10,16-20 (series y granitoides), p.23 (Molco-Cerro Name y Pillay-Cerro Gupo), mapa y leyenda.
+Gajardo (1981), Hoja Concepcion-Chillan: leyenda del mapa al final del PDF Texto y Mapa. No se hace una revision exhaustiva de su memoria escaneada.
+Chanco-Curanipe: carta preliminar suministrada sin leyenda.
+El control de calidad comprueba estructura, validez geometrica y cobertura; no certifica fidelidad de cada contacto ni correlaciones de terreno.

@@ -11,7 +11,7 @@ Snapshot: 2026-10-12. Read the root README first. This guide describes implement
 5. `ai_context/Interpretaciones_K_deltaT_20261005.py`: gated regional interpretation, using a different time origin.
 6. `docs/REVIEW_20261012.md`: review evidence and unresolved dependency.
 
-Code-only files retain notebook cell boundaries and may include IPython magics; they are not standalone scripts. Notebook files are authoritative. Data and saved numerical outputs are external.
+Code-only files retain notebook cell boundaries and may include IPython magics; they are not standalone scripts. Notebook files are authoritative. The DEM (Git LFS), point-outlet catalogue, declared main-channel shapefile and integrated geological-unit map are now distributed under `data/`. Saved numerical outputs, workbooks and remaining scientific inputs are external. Consult the data README for paths, source limitations and hashes.
 
 ## Terminology and distinctions
 

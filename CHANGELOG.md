@@ -2,6 +2,9 @@
 
 ## 2026-10-12 — Updated research workflow for review
 
+- Adds the exact working DEM through Git LFS, the current point-outlet catalogue, the declared main-channel shapefile and the integrated geological-unit map with sidecars/styles/source notes.
+- Provides shapefile ZIP bundles and file hashes/spatial metadata; documents download and path configuration.
+
 - Replaces six initial notebooks with ten current notebooks; prior versions remain in Git history.
 - Adds shared provenance/QC module, configuration and 18-outlet catalogue.
 - Includes latest six-river K/time calibration, lithology comparisons and crossing/smoothing sensitivity.

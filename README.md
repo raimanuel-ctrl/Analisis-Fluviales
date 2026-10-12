@@ -10,7 +10,20 @@ I am investigating how river-profile morphology, knickpoints, coastal terrace ma
 
 The central question is whether a downstream calibration can be transferred toward a manually selected knickpoint, given lithological changes, alluvial reaches, structural context and terrace-correlation uncertainty. Spatial coincidence and a good χ–elevation fit alone do not establish that transfer or a tectonic origin.
 
-**This is ongoing research, not a validated tectonic chronology.** The repository includes code and an outlet catalogue. The DEM, geological layers, exported profiles and age workbooks are external. This publication review did not execute the notebooks or recalculate results.
+**This is ongoing research, not a validated tectonic chronology.** The repository includes code, the working DEM, the outlet catalogue, the declared river shapefile and the integrated geological-unit map. Exported profiles, additional fault layers and age workbooks remain external. This publication review did not execute the notebooks or recalculate results.
+
+## Published spatial data
+
+| Dataset | Location | Contents |
+| --- | --- | --- |
+| Working DEM | [TDM_cut_UTM18.tif](data/dem/TDM_cut_UTM18.tif) | Original bytes, 512,582,580 bytes, 12 m pixels, EPSG:32718; stored through Git LFS. |
+| Point-outlet catalogue | [outlets_20261005.csv](data/outlets/outlets_20261005.csv) | 18 outlet coordinates used by regional topography; identical to the copy beside the notebooks. |
+| Declared `rios_outlets` shapefile | [Download complete ZIP](data/outlets/rios_outlets_20261012.zip) | The exact layer referenced by detailed calibration: 18 main-channel LineStrings, despite its name; not a point-outlet layer. |
+| Integrated geological units | [Download complete ZIP](data/geology/Geologia_unidades_20261012.zip) | 656 polygons/multipolygons from the Chanco–Jorquera–Gajardo compilation, all shapefile sidecars, QGIS styles and source notes. |
+
+With Git LFS installed, `git clone` and `git lfs pull` retrieve the actual DEM. Without it, the repository may contain a small pointer rather than raster bytes. See [GitHub's Git LFS documentation](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage). For browser downloads, use the DEM page's raw/download control. A default repository ZIP should not be assumed to include LFS data.
+
+See [data instructions](data/README.md), [metadata](data/metadata_20261012.json) and [file hashes](data/data_manifest_20261012.json). Update notebook/configuration paths to the downloaded datasets; published paths are not automatically adopted by the research notebooks. The integrated map retains preliminary classifications, scale differences and map-seam limitations documented in `data/geology/LEEME.txt`; broad lithological groups do not establish identical erodibility. Scientific datasets do not automatically inherit the code's MIT license; source conditions and attribution still apply.
 
 ## Start here — human or AI review
 
@@ -37,7 +50,7 @@ Keep the regional notebooks beside [post_auditoria_20261005.py](notebooks/post_a
 
 ## Geometry, parameters and provenance
 
-The preceding workflow audit records a 12 m DEM in UTM 18S, EPSG:32718. The updated code checks actual resolution rather than using the old fixed `30m` label. The DEM was not reopened or reprocessed for this publication.
+The published DEM header was read on 12 October: 12 m pixels, EPSG:32718, 14,077 rows × 12,815 columns, one float32 band and nodata=-99999. No hydrology or numerical profile analysis was rerun. The updated code checks actual resolution rather than using the old fixed `30m` label.
 
 Distance increases upstream from the loaded outlet. Elevation/distance use metres and area uses m². Main-channel extraction follows the upstream candidate with greatest contributing area; original DEM elevations define profiles, while conditioned products support routing.
 

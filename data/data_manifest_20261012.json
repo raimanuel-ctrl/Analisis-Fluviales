@@ -1,0 +1,96 @@
+{
+  "publication_date": "2026-10-12",
+  "storage": "DEM uses Git LFS; other files use normal Git.",
+  "files": [
+    {
+      "path": "data/dem/TDM_cut_UTM18.tif",
+      "bytes": 512582580,
+      "sha256": "78b9a4f51a869e97569a13ee9becc0692f4971e7d78e8a5b5d7f8657f3038654"
+    },
+    {
+      "path": "data/outlets/rios_outlets.shp",
+      "bytes": 500196,
+      "sha256": "d49d3ec8f9ffd07487112e5f9c3e2eaa2a847f16b5d8d79fa50fcd8b3b57cc38"
+    },
+    {
+      "path": "data/outlets/rios_outlets.shx",
+      "bytes": 244,
+      "sha256": "6cb105dd95594b47d4dc4b4a0b0f439131bbecba7838217c9efcbbbfbda3f71e"
+    },
+    {
+      "path": "data/outlets/rios_outlets.dbf",
+      "bytes": 5108,
+      "sha256": "94389bf0e8c3dd2b0bf73ce2899bd82ad576f95279348354de18f051488b4984"
+    },
+    {
+      "path": "data/outlets/rios_outlets.prj",
+      "bytes": 409,
+      "sha256": "5fe2418b950fed3d596d4092ed07b817045dfebd3c990a94cb555ebede91cd47"
+    },
+    {
+      "path": "data/outlets/rios_outlets.cpg",
+      "bytes": 5,
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    {
+      "path": "data/geology/Geologia_unidades.shp",
+      "bytes": 14311272,
+      "sha256": "c9bd668000449871a808ec0318a0aa2af1e3ccb3fe6342cf61810e92f28713aa"
+    },
+    {
+      "path": "data/geology/Geologia_unidades.shx",
+      "bytes": 5348,
+      "sha256": "ab68cd1c05dd7906e1dce7cf0e0fac2f7ff857ee8cdf27cd9b0c6e893d6d3b39"
+    },
+    {
+      "path": "data/geology/Geologia_unidades.dbf",
+      "bytes": 781874,
+      "sha256": "b329ee55f8c112ba477f0bc1fbb304b0e39b7961dc79c5eecd86a0458dab34a4"
+    },
+    {
+      "path": "data/geology/Geologia_unidades.prj",
+      "bytes": 409,
+      "sha256": "5fe2418b950fed3d596d4092ed07b817045dfebd3c990a94cb555ebede91cd47"
+    },
+    {
+      "path": "data/geology/Geologia_unidades.cpg",
+      "bytes": 5,
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    {
+      "path": "data/geology/Geologia_unidades.qml",
+      "bytes": 10338,
+      "sha256": "190b8318a131728246a06c74393c0375eac17e777933acef5b74138f4b6b2ada"
+    },
+    {
+      "path": "data/geology/Geologia_unidades_colores_Jorquera_20261009.qml",
+      "bytes": 77677,
+      "sha256": "2d70734d160b8abc1265839719144f8c25862996e20446c5d108dbb47f3e2e09"
+    },
+    {
+      "path": "data/geology/equivalencias.csv",
+      "bytes": 7223,
+      "sha256": "eb74ea43c6c1c3f77053d9df9f4fe732f80fe32aeae07e4f4efb1878bbd8790a"
+    },
+    {
+      "path": "data/geology/LEEME.txt",
+      "bytes": 3092,
+      "sha256": "c703eca6fbd89bb98bc2b3d11674049249939478b273bd11b71b2c5e76ecdadb"
+    },
+    {
+      "path": "data/outlets/outlets_20261005.csv",
+      "bytes": 820,
+      "sha256": "ffcedb8a3d8c6b9f2e6e98de0739da47fd25475525b6905bed754a42afc63e12"
+    },
+    {
+      "path": "data/geology/Geologia_unidades_20261012.zip",
+      "bytes": 9909757,
+      "sha256": "65b57f5edf8d9ef1379305a65d7449a79340e31aed531d4bf6eb5750abb8a298"
+    },
+    {
+      "path": "data/outlets/rios_outlets_20261012.zip",
+      "bytes": 91368,
+      "sha256": "774bfef5d073e64b7fcbfa8ffce26397f67ccecdf63d65d9227355b609aadcbf"
+    }
+  ]
+}
