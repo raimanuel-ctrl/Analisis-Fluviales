@@ -1,5 +1,10 @@
 # Registro de cambios
 
+## 2026-10-12 — Documentation revision
+
+- Adopts an impersonal scientific tone and removes recipient-specific references from public documentation.
+- Clarifies the purpose of technical context and code-only snapshots for general research review.
+
 ## 2026-10-12 — Updated research workflow for review
 
 - Adds the exact working DEM through Git LFS, the current point-outlet catalogue, the declared main-channel shapefile and the integrated geological-unit map with sidecars/styles/source notes.

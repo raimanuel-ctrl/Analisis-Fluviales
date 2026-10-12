@@ -1,6 +1,6 @@
 # Published and external scientific data
 
-Added on 2026-10-12 at the author's request:
+Spatial datasets published on 2026-10-12:
 
 - `dem/TDM_cut_UTM18.tif`: working DEM, stored with Git LFS. 512,582,580 bytes; 12 m grid; EPSG:32718; one float32 band; 14,077 × 12,815 cells; nodata=-99999.
 - `outlets/outlets_20261005.csv`: 18 point-outlet records, identical to `notebooks/outlets_20261005.csv`.
@@ -25,7 +25,7 @@ For the regional workflow, set `dem` in `notebooks/configuracion_post_auditoria_
 
 ## Source limitations
 
-`geology/LEEME.txt` and `equivalencias.csv` retain the compilation's source/correlation notes. The mosaicking rule prioritizes Jorquera > Chanco > Gajardo without establishing geological equivalence; map seams are not automatically contacts. Chanco classifications and some regional correlations remain preliminary. The source notes also mention fault/GPKG layers that are not part of this requested upload. The code's MIT license does not confer rights over upstream datasets; no new blanket data license is assigned here.
+`geology/LEEME.txt` and `equivalencias.csv` retain the compilation's source/correlation notes. The mosaicking rule prioritizes Jorquera > Chanco > Gajardo without establishing geological equivalence; map seams are not automatically contacts. Chanco classifications and some regional correlations remain preliminary. The source notes also describe fault/GPKG layers that are not included in this distribution. The code's MIT license does not confer rights over upstream datasets; no blanket data license is assigned here.
 
 ## Inputs still required
 

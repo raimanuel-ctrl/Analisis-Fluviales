@@ -1,6 +1,6 @@
 # Technical context for scientific code review
 
-Snapshot: 2026-10-12. Read the root README first. This guide describes implementation, not freshly executed results.
+Snapshot: 2026-10-12. This reference complements the root README with a reading sequence, terminology and criteria for scientific code review. It describes the implementation rather than newly executed results.
 
 ## Suggested reading order
 
@@ -34,7 +34,7 @@ Code-only files retain notebook cell boundaries and may include IPython magics; 
 2. Which crossings and bedrock intervals remain defensible after reviewing alluvium, geometry and DEM limits?
 3. Do mapped lithological changes prevent constant K transfer toward the KP?
 4. What uncertainty remains outside crossing/smoothing sensitivity?
-5. Do normalization, time origin, regression and units match the exact implementation used for external comparison?
+5. Are normalization, time origin, regression conventions and units consistent with the exact implementation used for any external comparison?
 6. Which downstream products require regeneration when inputs or decisions change?
 
 The algebra of the K core can be inspected here. Full parity with another researcher's workflow requires its exact module, filters, regression, geometry and uncertainty treatment; similarity of equations alone is insufficient.

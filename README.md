@@ -1,12 +1,14 @@
 # Fluvial profiles, coastal terraces and conditional erodibility — central Chile
 
-**Research snapshot: 12 October 2026.** Author: Raimundo Sanchez Mosqueira, Geology, Universidad de Chile. This repository documents my Python thesis workflow and its current development during a research stay at Stanford. It supports inspection of the implementation, assumptions and unresolved decisions.
+Python workflows for fluvial morphometry, coastal-terrace analysis and conditional calibration of stream-power erodibility in central Chile. Developed for thesis research in Geology at Universidad de Chile.
 
-Current code comes from `Notebook_post_auditoria`, including changes saved through 12 October. The `20261005` filenames identify the workflow generation, not the date of every subsequent edit. Earlier notebooks remain available through Git history.
+**Author:** Raimundo Sanchez Mosqueira. **Current version:** research snapshot dated 12 October 2026. **Status:** active research development.
+
+The current implementation includes the revised regional workflow and subsequent lithological and calibration analyses. The `20261005` filenames identify the workflow generation rather than the date of every subsequent edit. Earlier versions are preserved in Git history.
 
 ## Scientific objective and current direction
 
-I am investigating how river-profile morphology, knickpoints, coastal terrace markers and mapped geology relate to landscape evolution in central Chile. The regional workflow builds profiles for 18 outlets. Detailed calibration focuses on six rivers and tests the effects of reference elevation, sample uplift rate, crossing choice and smoothing on conditional K and modeled travel times.
+The project investigates relationships among river-profile morphology, knickpoints, coastal terrace markers, mapped geology and landscape evolution in central Chile. The regional workflow builds profiles for 18 outlets. Detailed calibration focuses on six rivers and evaluates the effects of reference elevation, sample uplift rate, crossing choice and smoothing on conditional K estimates and modeled propagation times.
 
 The central question is whether a downstream calibration can be transferred toward a manually selected knickpoint, given lithological changes, alluvial reaches, structural context and terrace-correlation uncertainty. Spatial coincidence and a good χ–elevation fit alone do not establish that transfer or a tectonic origin.
 
@@ -25,11 +27,11 @@ With Git LFS installed, `git clone` and `git lfs pull` retrieve the actual DEM. 
 
 See [data instructions](data/README.md), [metadata](data/metadata_20261012.json) and [file hashes](data/data_manifest_20261012.json). Update notebook/configuration paths to the downloaded datasets; published paths are not automatically adopted by the research notebooks. The integrated map retains preliminary classifications, scale differences and map-seam limitations documented in `data/geology/LEEME.txt`; broad lithological groups do not establish identical erodibility. Scientific datasets do not automatically inherit the code's MIT license; source conditions and attribution still apply.
 
-## Start here — human or AI review
+## Technical documentation
 
-Read [Calibracion_K_t.ipynb](notebooks/Calibracion_K_t.ipynb) for the latest 30-scenario K/time analysis and K8 crossing/smoothing sensitivity, and [Litologia_perfiles_comparaciones.ipynb](notebooks/Litologia_perfiles_comparaciones.ipynb) for lithology assignments and regional profile comparisons.
+The detailed analysis is implemented in [Calibracion_K_t.ipynb](notebooks/Calibracion_K_t.ipynb), which contains the 30-scenario K/time analysis and K8 crossing/smoothing sensitivity. [Litologia_perfiles_comparaciones.ipynb](notebooks/Litologia_perfiles_comparaciones.ipynb) provides lithological assignments and regional profile comparisons.
 
-For an AI-assisted review, provide this README, [AI_CONTEXT.md](AI_CONTEXT.md) and the relevant files from [ai_context/](ai_context/). That folder contains code-only notebook snapshots with cell boundaries. They are reading aids, not standalone scripts; notebooks remain authoritative. Include the shared Python module and JSON configuration when reviewing the regional infrastructure.
+[AI_CONTEXT.md](AI_CONTEXT.md) documents terminology, methodological distinctions and review criteria. The [ai_context/](ai_context/) directory provides code-only notebook snapshots with cell boundaries for text-based inspection and automated review. These files are reading aids rather than standalone scripts; notebooks remain authoritative. The shared Python module and JSON configuration document the regional infrastructure.
 
 ## Workflow and files
 
@@ -124,4 +126,4 @@ Start Jupyter in `notebooks/` and review paths before running cells. Personal pa
 
 Dependencies include NumPy, pandas, SciPy, Matplotlib, Rasterio, GeoPandas, Shapely, IPython/Jupyter, an Excel engine such as openpyxl and TopoAnalysis. TopoToolbox is optional for candidate comparison. An exact validated environment is pending; no untested lockfile is supplied.
 
-See [data requirements](data/README.md). Original contributions use the [MIT license](LICENSE). External software/data retain their licenses and attribution; TopoAnalysis and TopoToolbox are not my own libraries. Questions/corrections can be recorded as repository issues.
+See [data requirements](data/README.md). Original code contributions are distributed under the [MIT license](LICENSE). External software and datasets retain their respective licenses and attribution. TopoAnalysis and TopoToolbox are third-party dependencies. Bugs, methodological questions and proposed improvements can be submitted through repository issues.
