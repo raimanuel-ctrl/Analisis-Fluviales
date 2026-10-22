@@ -47,6 +47,10 @@ Iniciar Jupyter desde `actual_20261022` o `Notebooks_principales_20261019`. Rein
 
 El DEM y la compilación geológica de la publicación anterior están en [data](../../data/), accesibles desde las rutas configuradas; el DEM utiliza Git LFS. Los datos fuente no heredan automáticamente la licencia del código. No se publican correos, manuscritos, libros privados, notebooks de colaboradores ni sus coeficientes no publicados. Las comparaciones que los requieren no se reemplazan por valores inventados.
 
+[Terrazas_utilizadas_genericas.csv](datos_sintesis/Terrazas_utilizadas_genericas.csv) contiene únicamente las ocho referencias río/MIS utilizadas en la calibración: T01–T08. Sus edades asignadas y rangos proceden de la Tabla 2, p. 179, del [artículo público de Jara-Muñoz et al. (2015)](https://earthweb.ess.washington.edu/gomberg/SZOSeminar/Papers/MunozQuatSci15.pdf). La asociación con cada río corresponde a esta memoria, no a una datación independiente publicada para ese cauce. Los identificadores son genéricos; no se distribuyen coordenadas, geometrías, catálogo completo de terrazas ni datos del archivo privado `Ages_Final`.
+
+Los CSV de perfiles, KP, B, Pₜ, K y tiempos son productos derivados propios cuya publicación autorizó el autor. Pₜ es un cruce calculado sobre el cauce, no la ubicación medida de una terraza. Las coordenadas distribuidas en los perfiles y KP no representan puntos del catálogo de terrazas. El CSV genérico no permite reconstruir las ubicaciones omitidas y no se utiliza como sustituto silencioso del catálogo espacial privado. En consecuencia, la síntesis 07 es reproducible desde datos derivados; la calibración espacial de 01–06 continúa requiriendo entradas privadas compatibles.
+
 Para ejecutar 01–06 se necesitan también fallas, polígonos, catálogos de terrazas, decisiones B/KP y manifiestos compatibles. Las fuentes derivadas de 07 no sustituyen esos insumos. La posibilidad de repetir el cálculo tampoco valida automáticamente la selección geomorfológica manual.
 
 ## Procedencia y comprobaciones

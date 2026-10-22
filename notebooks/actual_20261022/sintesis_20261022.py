@@ -31,6 +31,11 @@ def cargar():
     cal=read('Calibraciones.csv')
     assert len(cal)==24 and cal.groupby(['rid','mis']).chi_B_m.nunique().eq(1).all()
     assert cal.groupby('mis').T_ka.first().to_dict()=={'5c':106.0,'5e':125.0}
+    terraces=read('Terrazas_utilizadas_genericas.csv')
+    assert len(terraces)==8 and not terraces.duplicated(['rid','MIS']).any()
+    assert set(zip(terraces.rid,terraces.MIS))==set(zip(cal.rid,cal.mis))
+    published_ages=terraces.set_index(['rid','MIS']).edad_asignada_ka
+    assert all(np.isclose(row.T_ka,published_ages.loc[(row.rid,row.mis)]) for row in cal.itertuples())
     # Three labels can refer to one physical crossing, so each physical point counts once.
     cal['ptkey']=cal.chi_PT_m.round(7)
     physical=cal.drop_duplicates(['rid','mis','ptkey']).copy()

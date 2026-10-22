@@ -4,3 +4,9 @@ inputs_external/
 **/.ipynb_checkpoints/
 **/__pycache__/
 *.pyc
+# Private spreadsheets and original georeferenced terrace inputs are not public.
+**/*.xlsx
+**/*.xls
+**/[Aa]ges_[Ff]inal*
+**/Fuentes/
+Archivos_Memoria/Fuentes_*/

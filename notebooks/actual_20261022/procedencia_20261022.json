@@ -444,5 +444,24 @@
     "omitted unpublished external comparison data; missing-state guards",
     "plot presentation labels",
     "current synthesis added separately; no source-notebook numerical execution"
-  ]
+  ],
+  "data_publication_policy": {
+    "authorization": "Author explicitly authorized own derived data on 2026-10-22, excluding private Ages_Final and terrace locations.",
+    "included": "Author-derived channel profiles, KP, B/PT geometry, K and time/rate reference tables; eight generic river/MIS terrace references.",
+    "excluded": [
+      "private Ages_Final workbook and its non-public contents",
+      "georeferenced terrace catalogue and terrace location coordinates",
+      "unpublished external collaborator coefficients and original notebooks"
+    ],
+    "generic_terrace_source": {
+      "url": "https://earthweb.ess.washington.edu/gomberg/SZOSeminar/Papers/MunozQuatSci15.pdf",
+      "doi": "10.1016/j.quascirev.2015.01.005",
+      "table": 2,
+      "printed_page": 179,
+      "verified_date": "2026-10-22",
+      "rows": 8
+    },
+    "history_audit": "Unpublished candidate parent tree checked: no excluded workbook or georeferenced terrace dataset tracked.",
+    "interpretation": "PT crossings are computed river points, not measured terrace locations; generic IDs cannot replace private spatial inputs."
+  }
 }

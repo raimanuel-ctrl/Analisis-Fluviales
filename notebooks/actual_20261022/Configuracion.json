@@ -64,5 +64,7 @@
     "16": "JM2015_065",
     "17": "JM2015_066",
     "18": "JM2015_069"
-  }
+  },
+  "terrazas_genericas_csv": "datos_sintesis/Terrazas_utilizadas_genericas.csv",
+  "nota_terrazas_publicas": "Generic references only. No terrace coordinates or private Ages_Final data are distributed. Full spatial inputs remain external and must not be committed."
 }
