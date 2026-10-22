@@ -1,0 +1,448 @@
+{
+  "date": "2026-10-22",
+  "files": [
+    {
+      "source_id": "Notebooks_principales_20261019\\01_Analisis_Topografico.ipynb",
+      "source_sha256": "b78606ea0429e8b6417daa722ff9fc7ad6f190c2a2e05751a22340dbe1946a8e",
+      "published": "Notebooks_principales_20261019/01_Analisis_Topografico.ipynb",
+      "published_sha256": "c49771954c6a5404125fc321487d071119d5611afdaf290328513f1cb4baa7ce",
+      "transformation": "strip outputs and personal paths; portable root; external-comparison disabled"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\02_Perfiles.ipynb",
+      "source_sha256": "5fb2903b99dcb9fa351fdffb5b185ec2a4172a3b9996b2306fc540dc9c551481",
+      "published": "Notebooks_principales_20261019/02_Perfiles.ipynb",
+      "published_sha256": "6e7f39db16b8add3df862c43e693c27fdfbb1dbfae32937f87a758a6e63d6251",
+      "transformation": "strip outputs and personal paths; portable root; external-comparison disabled"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\03_K_U_tau_20261019.ipynb",
+      "source_sha256": "bd8a0a55517559a0977e38d755b8386be62652a470d67f5a137bc2e96bb1e9fc",
+      "published": "Notebooks_principales_20261019/03_K_U_tau_20261019.ipynb",
+      "published_sha256": "4e42230c3044d31e115b4f93aaa70ac3e03f10cdeb9eff73684df5017f7939c7",
+      "transformation": "strip outputs and personal paths; portable root; external-comparison disabled"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\04_ksn_Fallas.ipynb",
+      "source_sha256": "2c9863ae665b8e1c805e69326b2ab81c60594a1ab668f85d19f90531c7951b0d",
+      "published": "Notebooks_principales_20261019/04_ksn_Fallas.ipynb",
+      "published_sha256": "f69fe124e1ca9ea4e4b551b8cb3863950f33949a2e41e4bb48a3c72c112d82ae",
+      "transformation": "strip outputs and personal paths; portable root; external-comparison disabled"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\05_Red_completa_fallas_20261019.ipynb",
+      "source_sha256": "7206a2ceaeddec48378dba35f10b950d6131129ce5759b298b8f44337ab4cf56",
+      "published": "Notebooks_principales_20261019/05_Red_completa_fallas_20261019.ipynb",
+      "published_sha256": "5c925e579fa92f8bd3b4319af8c8ebea1d43352b7b72822208bb72b00257a201",
+      "transformation": "strip outputs and personal paths; portable root; external-comparison disabled"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Figuras.ipynb",
+      "source_sha256": "6431f5506d2c16ef6fa65b10ddfa14c13259442d68b18b5efc755bc1c35d85fb",
+      "published": "Notebooks_principales_20261019/Figuras.ipynb",
+      "published_sha256": "c1dd12b3f6786d5a5986a6a2986cf71c1ba3f99af1d22731fab8bcbadd5f3521",
+      "transformation": "strip outputs and personal paths; portable root; external-comparison disabled"
+    },
+    {
+      "source_id": "Archivos_Memoria\\Codigo\\atlas_final.py",
+      "source_sha256": "79029a7de9d952f59d306f571869d77c94a8c68c732c49644eee3a8a3f2480ab",
+      "published": "Archivos_Memoria/Codigo/atlas_final.py",
+      "published_sha256": "e755fea5c158effa4ead52b70c751f74a5ec35d8fcbf656c19fc142c40a58cb0",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Archivos_Memoria\\Codigo\\calibracion_K.py",
+      "source_sha256": "7103b7fed7090e4af9eb735b0acdefc6adf4d3343388117b927826e913fd0d73",
+      "published": "Archivos_Memoria/Codigo/calibracion_K.py",
+      "published_sha256": "6406f691c0ebb0287226108121c330d516a6513cd18b365b084543c00cd747d5",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Archivos_Memoria\\Codigo\\memoria_comun.py",
+      "source_sha256": "3d82c37e4353ff010d64ae384ea40bb95ad725eced0222398c18e336aa7525bd",
+      "published": "Archivos_Memoria/Codigo/memoria_comun.py",
+      "published_sha256": "318b0eadc0e83c4cbc7e035e5d3c189065986818d14671d9d7d1091cbfb9b8cc",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Archivos_Memoria\\Codigo\\swath_graben_3d.py",
+      "source_sha256": "c974057e044f3a23890a43eb3e7c213bb879ee7b7b7f5d41965b391477472dfb",
+      "published": "Archivos_Memoria/Codigo/swath_graben_3d.py",
+      "published_sha256": "5633b90839f72990ad164ac8fab7329780dd487d95e2e471807b72138010f122",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Archivos_Memoria\\Codigo\\visualizacion_ksn_20261013.py",
+      "source_sha256": "26c17557b9f680a1e4a9ac9d87edfb10e854f5c5ac692fb478f84c596dd817a4",
+      "published": "Archivos_Memoria/Codigo/visualizacion_ksn_20261013.py",
+      "published_sha256": "8858730c10267e4f8c57da0601b457f38296334f72b6aedff9f0f246d9716963",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\ajustar_vista_swath.js",
+      "source_sha256": "4ff1410d57f647df29793c14680aae56e566d44f90180186133d9514fbe55de3",
+      "published": "Codigo_consolidado_20261019/ajustar_vista_swath.js",
+      "published_sha256": "4a06432a2215ecb4e6473ec92f98d7cf3fce8a2b9384a3bcc79b63177ce89f01",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\calculo_unificado.py",
+      "source_sha256": "c98bc2ee2c269ff518340cea89bc0dbc2a9b195b3da47d08b671c9550090cd43",
+      "published": "Codigo_consolidado_20261019/calculo_unificado.py",
+      "published_sha256": "4f257cbb523ada8f0d498300dab8d4a028a9461c8261e4cd901ce3b84b14e9f2",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\calibracion_tau.py",
+      "source_sha256": "570815836a11a92210718dc77e2b432c1bdc899123407ccad41fab8601b5816c",
+      "published": "Codigo_consolidado_20261019/calibracion_tau.py",
+      "published_sha256": "5dc959a3abc5ff4f0bb543a307cc1bff13eb4b1c7240a36e9e159fedaa31062c",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\comparacion_KP_origen_comun.py",
+      "source_sha256": "a0ff2066f96e64a186b75418732613acfa7d3ad68ee82c86c6dd355a0bcd863e",
+      "published": "Codigo_consolidado_20261019/comparacion_KP_origen_comun.py",
+      "published_sha256": "97349d0289d07530adf6034644b9d56a034db4c40573631d98b49a25a132bc87",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\controlador_visor_rios.js",
+      "source_sha256": "7878d503346d05529f2f1976ac87d8ec33102a8127d9f27e6bb88b9bbf37e9f3",
+      "published": "Codigo_consolidado_20261019/controlador_visor_rios.js",
+      "published_sha256": "b6dfa360eb0d2dca3da6f3d2e285447313f2d3b7277fdb1932a30e8fe3adb4fc",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\cronologia_jm2015.py",
+      "source_sha256": "23024a897a393cca4456000250b9869f743c55fdb1fda993401fd6089036dc22",
+      "published": "Codigo_consolidado_20261019/cronologia_jm2015.py",
+      "published_sha256": "e9dd51b72390b1ef49bd14f0cd399fd60470d57d58139825be64cf0e78fd9188",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\escenarios_k_manuales.py",
+      "source_sha256": "eaa8b491da4ce0e75414174df0a86ad490080f5d491d3c7fa90acad5c49c80fe",
+      "published": "Codigo_consolidado_20261019/escenarios_k_manuales.py",
+      "published_sha256": "7e702cc441383bfdc790b1891a06d6703f0f31c3aa44442a608ff585fa4b1499",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\figuras_red.py",
+      "source_sha256": "0091dc46e78ecc6af103d911f6400ee5e2c3d2c510bc6b063396b82ce35b2e47",
+      "published": "Codigo_consolidado_20261019/figuras_red.py",
+      "published_sha256": "2d1b472fc2d505dc51c42b13ec09687829a7d61d370c0c53befeff193b1e8bbc",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\integracion_K_oficial.py",
+      "source_sha256": "998999c916aca0c9d363eee6d25c7f84995c826769c79765d902f248e0997034",
+      "published": "Codigo_consolidado_20261019/integracion_K_oficial.py",
+      "published_sha256": "c0c0295c09685838ace10c3a27cdf39be7b50753328f7f02cd3da55e0c8e696e",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\k_con_grant.py",
+      "source_sha256": "2444077e9973c0954db85f5a7718f0e46b620e93a414035ca48b1fd110cbf152",
+      "published": "Codigo_consolidado_20261019/k_con_grant.py",
+      "published_sha256": "12cdeec32465cce8584dfe1af9a1c0dbff8e995ae43aa336063ec4c4bb00b7b0",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\k_dem_terraza_v8.py",
+      "source_sha256": "1ff35a7fc3e1cdf8bece4973079c60f183267d2b776e69162195e2cd863fa12b",
+      "published": "Codigo_consolidado_20261019/k_dem_terraza_v8.py",
+      "published_sha256": "10636b6eea0595f3230e4605b4f7b0d48d6a52cf116567c0b6431d0897403ad8",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\red_fallas.py",
+      "source_sha256": "cc0677dfaaa890fed6a56cc3155b198424f15d9d9f54d41adece4447a0fb0e22",
+      "published": "Codigo_consolidado_20261019/red_fallas.py",
+      "published_sha256": "7f9b8e19aae8038244db595d4c9938560c46aa719aba4f709b92fb6131af6f41",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\revision_b_base.py",
+      "source_sha256": "8f2b56c61ad804491ee0b1c3f109e6b25a3ae35cfac4bb139b0abb8216100da0",
+      "published": "Codigo_consolidado_20261019/revision_b_base.py",
+      "published_sha256": "1c977954a0b2820fd20fffc4ace61d87e5521d3470bc956014748d56074c5ff5",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\seleccionar_puntos_swath.js",
+      "source_sha256": "30de3ede483124a683eb1ee3d5ce45413a7f61e0c92f54ce4731ac41ac5dee95",
+      "published": "Codigo_consolidado_20261019/seleccionar_puntos_swath.js",
+      "published_sha256": "30de3ede483124a683eb1ee3d5ce45413a7f61e0c92f54ce4731ac41ac5dee95",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\swath_b_3d.py",
+      "source_sha256": "88d2d3a9baf1a7b69cd97634b8d7e501fff60f9650e738cffc6ba740184a1977",
+      "published": "Codigo_consolidado_20261019/swath_b_3d.py",
+      "published_sha256": "93cbb029972e0c39b804d24630a3b2f11b10f243c149d923c643107c9f47894d",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Codigo_consolidado_20261019\\visor_rios_swath.py",
+      "source_sha256": "ebbe6154f9318e68288e4d501a145efeb083fb00701a5ef817a789d995dd7ef8",
+      "published": "Codigo_consolidado_20261019/visor_rios_swath.py",
+      "published_sha256": "dc93e8c7cabf646572f4180f58d23aaaf04afdd7d0fab85a405e041d54ffd357",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "K_manuales_v8_20261016\\escenarios_k_manuales.py",
+      "source_sha256": "eaa8b491da4ce0e75414174df0a86ad490080f5d491d3c7fa90acad5c49c80fe",
+      "published": "K_manuales_v8_20261016/escenarios_k_manuales.py",
+      "published_sha256": "7e702cc441383bfdc790b1891a06d6703f0f31c3aa44442a608ff585fa4b1499",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "K_manuales_v8_20261016\\k_dem_terraza_v8.py",
+      "source_sha256": "1ff35a7fc3e1cdf8bece4973079c60f183267d2b776e69162195e2cd863fa12b",
+      "published": "K_manuales_v8_20261016/k_dem_terraza_v8.py",
+      "published_sha256": "10636b6eea0595f3230e4605b4f7b0d48d6a52cf116567c0b6431d0897403ad8",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "K_manuales_v8_20261016\\revision_b_base.py",
+      "source_sha256": "4f9247280adb3a7e40b90749f3d24c160e1d8266906793598bf9781732971f26",
+      "published": "K_manuales_v8_20261016/revision_b_base.py",
+      "published_sha256": "21769cbadbc5921423a8fc6bebb8c1860e6a36bda731d9a3fe2d650fdeb89b97",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Red_drenaje_poligono_20261019\\figuras_red.py",
+      "source_sha256": "0091dc46e78ecc6af103d911f6400ee5e2c3d2c510bc6b063396b82ce35b2e47",
+      "published": "Red_drenaje_poligono_20261019/figuras_red.py",
+      "published_sha256": "2d1b472fc2d505dc51c42b13ec09687829a7d61d370c0c53befeff193b1e8bbc",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Red_drenaje_poligono_20261019\\mapa_red_completa.py",
+      "source_sha256": "a80f2df2575de3bf281f6cf97f05cc5c1da9aa143a696193656f360f7ca2fc2f",
+      "published": "Red_drenaje_poligono_20261019/mapa_red_completa.py",
+      "published_sha256": "a5a4315b3eff8a6d8ab3feefdeeb6dc52473b8bd71fd5885cbbfbb96929fe9c8",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Red_drenaje_poligono_20261019\\red_fallas.py",
+      "source_sha256": "0c89dabbbd6a896e6a7236d0bd10a7a23f03ac7733071b13c54d48171651dd14",
+      "published": "Red_drenaje_poligono_20261019/red_fallas.py",
+      "published_sha256": "22fb380c25545587ad0cc457da93004681c5dd68fd4e345425037525595043e8",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Codigo_figuras_20261020\\base_dos_K.py",
+      "source_sha256": "f908289471c9a0ca76f11cee974f347556ad039fe8b7b082039b1f602c517f54",
+      "published": "Notebooks_principales_20261019/Codigo_figuras_20261020/base_dos_K.py",
+      "published_sha256": "4a36c9277cc48d993f4ff1ee34ec1c7d2663248b5d0b2bdb3d6ee9ff30d61b1f",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Codigo_figuras_20261020\\figuras_memoria_20261020.py",
+      "source_sha256": "45e23ca3e2c3355fa098c179590e643a1bccd6610fc509a78be9e5355e25dde2",
+      "published": "Notebooks_principales_20261019/Codigo_figuras_20261020/figuras_memoria_20261020.py",
+      "published_sha256": "0d46b070aa17d8fa0ab8787dc9923471656ba107c360e0f57754f529fb37f726",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Codigo_figuras_20261020\\figuras_vigentes_20261020.py",
+      "source_sha256": "838f6e4379633c3e2e036d60f2640409bcde948368ac2aab7b958d7febd6319d",
+      "published": "Notebooks_principales_20261019/Codigo_figuras_20261020/figuras_vigentes_20261020.py",
+      "published_sha256": "2dbf22bc80178aa6a961fee018ed8acd4c7586ccd62fc2a844702e590889bb61",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Codigo_figuras_20261020\\informe_pdf_figuras_20261020.py",
+      "source_sha256": "39ede7c171aae76d97adf8fd6bc4e355428774e01a0b9f56c26d1c35adfd39e3",
+      "published": "Notebooks_principales_20261019/Codigo_figuras_20261020/informe_pdf_figuras_20261020.py",
+      "published_sha256": "0a6282804a5305a75e23abec1f4879e1b5c27d4023442bdc2bab85a60ced06c4",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Codigo_figuras_20261020\\reloca_cuatro_cortes_figuras.py",
+      "source_sha256": "a1038f12ed36164844a413891b92e2f37c75a81aebd7ac57cbe5c26b921f9eeb",
+      "published": "Notebooks_principales_20261019/Codigo_figuras_20261020/reloca_cuatro_cortes_figuras.py",
+      "published_sha256": "64c7ad5ce9140d27f3c2ae7b0838805ce440f13fdb33f89fa2d885817131398a",
+      "transformation": "personal-path literals removed; external comparison data excluded where applicable"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\Calibraciones_figuras.csv",
+      "source_sha256": "c65578eb298ac469cab353b854ff03477d1e539e494fbd184a0a600fdd541a40",
+      "published": "datos_sintesis/Calibraciones.csv",
+      "published_sha256": "a0010335424a228d726a226269ec33e0ab99df2ba029f97985ce35eb83877839",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\KP_proyectados_theta040.csv",
+      "source_sha256": "a45f8855d829b332b036353ad49b251f72997155080a657635d3a16ce48d25d5",
+      "published": "datos_sintesis/KP.csv",
+      "published_sha256": "5d91db4cd106dad0ae15f5b7b4ec41a58495950962b2a6281277d93adac3b208",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\Reloca_cuatro_cortes\\Resultados\\Cortes_proyectados.csv",
+      "source_sha256": "07d4b4480eb995318a08f3a6d70753c3e5e7860945c6db99cb089027435ac755",
+      "published": "datos_sintesis/Cortes_Reloca.csv",
+      "published_sha256": "86eb07a381c77c6cda909282468343146890659536ea1b03bf544601782906d7",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Tiempos_C2_dos_MIS.csv",
+      "source_sha256": "67765c68b3d4fbd7aa7686966dfd102cd329701b61ce492a6730af28319aebab",
+      "published": "datos_sintesis/Geometria_origenes.csv",
+      "published_sha256": "bc2857ace752888c9a477840ae06a410755be540485fbbe3129b8679c6441874",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R01_perfil_figuras.csv",
+      "source_sha256": "4633822d7610c4888e85aeb6ecf00fe2097641fa2e059575ba6b17ad2ba39d06",
+      "published": "datos_sintesis/R01.csv",
+      "published_sha256": "f052a95f5158cf9550a5985e2570f5f8b6e3c889d6fc5235677c6d73fe32887a",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R02_perfil_figuras.csv",
+      "source_sha256": "24215bc3ad4aee42d16f194a53ef94026147a875a3ef667855522c1a37e9381c",
+      "published": "datos_sintesis/R02.csv",
+      "published_sha256": "3d81bfaee2b0aecb148d99556c9a06bf673d82e57ab9c99c51a103b914ee2a06",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R03_perfil_figuras.csv",
+      "source_sha256": "c24f6061de9efa0ed0fab4e56d67801f2df2becb3edd3619db20e16306717018",
+      "published": "datos_sintesis/R03.csv",
+      "published_sha256": "3c965793795027f68f03f4589f75eca8eea56e473a9fd58497addc43e54cef37",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R04_perfil_figuras.csv",
+      "source_sha256": "19b563f37ca68da7d422ffffddd2f802dc6bf763f16559f99e9d722c7e9e3169",
+      "published": "datos_sintesis/R04.csv",
+      "published_sha256": "b3885e5bf1deb0f648ae6aea1eef78f6142cb13e79080f768d81786f9e0232f1",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R05_perfil_figuras.csv",
+      "source_sha256": "d8995d8a8738de883012cb8c380cad11de232bc03a2b1c5fbdfc29e6368ee3b3",
+      "published": "datos_sintesis/R05.csv",
+      "published_sha256": "99e9c1ece9f934e7dc295b0960af1426e9d1f5762cdacd9e3cc4988be6d20df0",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R06_perfil_figuras.csv",
+      "source_sha256": "c74df2d7157d17dd75600ae432e5954437682f0a0c22e7ac1eee5a132a998791",
+      "published": "datos_sintesis/R06.csv",
+      "published_sha256": "46f1d5182b8ca968bae64dcd05aaf7d86a00596c4899f17ff391ea7cf6b4551b",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R07_perfil_figuras.csv",
+      "source_sha256": "7ede5192e6b9143420e48746c5ac4a178242de5598483397035f97b9490714b6",
+      "published": "datos_sintesis/R07.csv",
+      "published_sha256": "717d414a509c298f10f855c452af4cbbf5dbd3acbaf47e0f81b228e298b8e31f",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R08_perfil_figuras.csv",
+      "source_sha256": "ffac265cf367d46c142e69266b64022a2bc92101e0c82a63ca688ef10552c2a5",
+      "published": "datos_sintesis/R08.csv",
+      "published_sha256": "384ca1e301afe89332479b9193e5ef8d6a4d33f2c216934b54f810eb23a014d8",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R09_perfil_figuras.csv",
+      "source_sha256": "77a98b623b02e00c9a747fd879a43ffb48840a4252f3250e7171196610d41504",
+      "published": "datos_sintesis/R09.csv",
+      "published_sha256": "5e0ffd7c2d0b8e277280830b5db0d7de1d75af8adee0cb6579ea81b49d28e69f",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R10_perfil_figuras.csv",
+      "source_sha256": "2b23f6e076e761548315dbe52145566d9aebca3da8a0706e5960d6e85b0564d0",
+      "published": "datos_sintesis/R10.csv",
+      "published_sha256": "d221c812f745bc2511a775a0b1dfc5fbb93b353cc3d877a3de39858edc04cde5",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R11_perfil_figuras.csv",
+      "source_sha256": "4c46bdd263478ee2ed61f9c28dcf6f706a53606015ade1fd051ecec528367d2c",
+      "published": "datos_sintesis/R11.csv",
+      "published_sha256": "07528faa77405b90c8ad75fde8d0c15ea6f3d659be56d19d56f22ca2f08afd8f",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R12_perfil_figuras.csv",
+      "source_sha256": "085459a3e3d5af0c918cbfbadcad25643a7d2439a55fe1749df5acba27e868e7",
+      "published": "datos_sintesis/R12.csv",
+      "published_sha256": "090fa91dc70f2fc1792560a18ed9a6fe9a48dc62b8172257109f72da484099e1",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R13_perfil_figuras.csv",
+      "source_sha256": "1919fc7de4932a9490f4c881dabe0c58441dc9be622f15e1d83379d2be10cac0",
+      "published": "datos_sintesis/R13.csv",
+      "published_sha256": "442dad9789b4fc4ee9d29d46526cb98c89e798b4c939628d266f877eb42e6cb1",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R14_perfil_figuras.csv",
+      "source_sha256": "f64f64349e3a552abb836e0bfab260680d1036ef7d3ec82ca6836d6f24e16983",
+      "published": "datos_sintesis/R14.csv",
+      "published_sha256": "bae798c7d95549fa4812fd1cbaeba8dc9944743e8487107e7ebaa8e824035e80",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R15_perfil_figuras.csv",
+      "source_sha256": "908c3ae7090f0b50231c37010cbba780c5ea3785f4c77dc46ebf806dd1b13146",
+      "published": "datos_sintesis/R15.csv",
+      "published_sha256": "dfa3a6bb56a712399e7e7796d89f60f8dd58d4d3bbbcaa63b6617cfa066b5fa7",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R16_perfil_figuras.csv",
+      "source_sha256": "e9a36d07d2dc306298e2224e9a1a9ac217049dc9fa6c2b819afbb777f7c3d810",
+      "published": "datos_sintesis/R16.csv",
+      "published_sha256": "2d3a704f05b078b092bc732ff1317d5bf8517522c52e8a7af11a14d12de057ed",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R17_perfil_figuras.csv",
+      "source_sha256": "9e8931a15d6fb9514db5f17ed1f55113eeddad5696d46f2e0d1253d076cbe9cb",
+      "published": "datos_sintesis/R17.csv",
+      "published_sha256": "e7abbbe07f5b083590577d3c6a30d567fdc1254e5caf266ca9fc1a5b4f635a3a",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Fuentes_vigentes_figuras_20261020\\R18_perfil_figuras.csv",
+      "source_sha256": "34cbeee95ed0ba9f8be2c8897611749dd1f19b334a0526d8c003a1621bb28582",
+      "published": "datos_sintesis/R18.csv",
+      "published_sha256": "08fd6b6097e160a645f9e7d352d7c01724c37588ae894782459d729df4d232f7",
+      "transformation": "explicit derived-data columns only; no external-comparison data"
+    },
+    {
+      "source_id": "Notebooks_principales_20261019\\Codigo_figuras_20261020\\revision_figuras_20261020.py",
+      "source_sha256": "55ac70efd5931a8e57fea71fd853663fc144d3ca9e6cd5531318c32ea5b4f0f2",
+      "published": "Notebooks_principales_20261019/Codigo_figuras_20261020/revision_figuras_20261020.py",
+      "published_sha256": "58508bdfc0e679174ca85e285ad87e3e0ffe62838474ac1f046c5fa4219417a5",
+      "transformation": "portable literals; runtime dependency of figure modules"
+    }
+  ],
+  "notebooks_executed": false,
+  "scientific_changes": "None in copied source notebooks. Current C2 and near-KP-rate synthesis is implemented separately in notebook 07.",
+  "excluded": [
+    "private documents",
+    "emails",
+    "raw notebooks from collaborators",
+    "unpublished external-comparison values",
+    "saved HTML and images in notebook outputs",
+    "full external data archive"
+  ],
+  "publication_adaptations": [
+    "portable literal paths and output stripping",
+    "omitted unpublished external comparison data; missing-state guards",
+    "plot presentation labels",
+    "current synthesis added separately; no source-notebook numerical execution"
+  ]
+}

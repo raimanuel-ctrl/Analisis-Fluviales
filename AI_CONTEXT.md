@@ -1,6 +1,8 @@
 # Technical context for scientific code review
 
-Snapshot: 2026-10-12. This reference complements the root README with a reading sequence, terminology and criteria for scientific code review. It describes the implementation rather than newly executed results.
+Current entry point: `notebooks/actual_20261022/README.md` and notebook 07. The 22 October synthesis uses theta=0.40 and Reloca C2, with explicit calibration residuals and distinct-physical-crossing K means. Read `docs/REVIEW_20261022.md` before using numerical outputs. The material below describes the archived 12 October implementation, not the current K/time conclusions.
+
+Archived snapshot: 2026-10-12. This reference complements the archived README with a reading sequence, terminology and criteria for scientific code review. It describes that implementation rather than newly executed results.
 
 ## Suggested reading order
 

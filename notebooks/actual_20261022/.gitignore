@@ -1,0 +1,6 @@
+Productos/
+Figuras/
+inputs_external/
+**/.ipynb_checkpoints/
+**/__pycache__/
+*.pyc

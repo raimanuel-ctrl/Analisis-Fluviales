@@ -1,4 +1,10 @@
-# Current research notebooks
+# Notebook catalogue
+
+## Current workflow dated 22 October 2026
+
+Use [actual_20261022/README.md](actual_20261022/README.md) for the seven ordered notebooks and the current derived-data synthesis. Notebook 07 reproduces the tables used in the current thesis; the older notebooks listed below are retained for provenance and use different configurations in some stages.
+
+## Archived workflow dated 12 October 2026
 
 Ten notebooks from `Notebook_post_auditoria`, reviewed for publication on 2026-10-12. See the [root README](../README.md) for execution order and scientific context.
 

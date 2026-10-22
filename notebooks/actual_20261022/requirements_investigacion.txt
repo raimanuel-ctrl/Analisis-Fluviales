@@ -1,0 +1,15 @@
+# Research dependencies; the complete 01-06 environment was not validated here.
+-r requirements_sintesis.txt
+scipy
+geopandas
+pyogrio
+affine
+rasterio
+shapely
+pyproj
+openpyxl
+plotly
+reportlab
+pillow
+nbformat
+# Install the required TopoAnalysis source separately and configure its path.

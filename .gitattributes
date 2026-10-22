@@ -1,3 +1,4 @@
 data/dem/*.tif filter=lfs diff=lfs merge=lfs -text
 data/geology/* -text
 data/outlets/* -text
+notebooks/actual_20261022/** text eol=lf
