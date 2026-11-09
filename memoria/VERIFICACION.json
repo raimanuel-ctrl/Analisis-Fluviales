@@ -1,0 +1,76 @@
+{
+  "fecha": "2026-11-09",
+  "casos_tiempo": 27,
+  "kp_catalogo": 17,
+  "kp_potenciales": 3,
+  "asociaciones_calibracion": 8,
+  "pt_fisicos": 18,
+  "ajustes_incision": 216,
+  "pruebas_numericas": 6,
+  "notebooks": [
+    {
+      "notebook": "01_perfiles_y_control_topografico.ipynb",
+      "celdas_ejecutadas": 4,
+      "errores": 0
+    },
+    {
+      "notebook": "02_catalogo_e_identificacion_kp.ipynb",
+      "celdas_ejecutadas": 5,
+      "errores": 0
+    },
+    {
+      "notebook": "03_seleccion_B_y_visor_3d.ipynb",
+      "celdas_ejecutadas": 4,
+      "errores": 0
+    },
+    {
+      "notebook": "04_calibracion_k_y_referencias_mis.ipynb",
+      "celdas_ejecutadas": 5,
+      "errores": 0
+    },
+    {
+      "notebook": "05_reloca_modelo_compuesto_C2.ipynb",
+      "celdas_ejecutadas": 4,
+      "errores": 0
+    },
+    {
+      "notebook": "06_tiempos_de_propagacion.ipynb",
+      "celdas_ejecutadas": 4,
+      "errores": 0
+    },
+    {
+      "notebook": "07_alzamiento_e_incision.ipynb",
+      "celdas_ejecutadas": 4,
+      "errores": 0
+    },
+    {
+      "notebook": "08_sintesis_y_tablas_memoria.ipynb",
+      "celdas_ejecutadas": 4,
+      "errores": 0
+    }
+  ],
+  "visores": {
+    "KP": {
+      "rios": 18,
+      "borrador_publico_vacio": true,
+      "regresion_viva": true,
+      "clic_guardado": true,
+      "ZIP_exportado": true,
+      "errores": []
+    },
+    "B3D": {
+      "rios": 6,
+      "casos": 8,
+      "cambio_de_rio": true,
+      "cambio_exageracion_vertical": true,
+      "nodo_DEM_guardado_via_eventos": true,
+      "CSV_exportado": true,
+      "errores": []
+    },
+    "peticiones_externas": []
+  },
+  "tablas_memoria": 13,
+  "fuentes_historicas_conservadas": 107,
+  "datos_privados_embebidos_en_3d": false,
+  "alcance": "Reproduccion desde datos derivados. No se reejecuta la extraccion D8 ni la asociacion espacial privada de terrazas."
+}

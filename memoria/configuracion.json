@@ -1,0 +1,13 @@
+{
+  "version": "2026-11-09",
+  "crs": "EPSG:32718",
+  "theta": 0.4,
+  "n": 1,
+  "A0_m2": 1000000.0,
+  "dem": "../data/dem/TDM_cut_UTM18.tif",
+  "terrazas_opcional": null,
+  "area_umbral_tributarios_m2": 1000000.0,
+  "datum_vertical": "Sin confirmacion absoluta",
+  "escenario_principal_sur": "K_G_R09_5e",
+  "origen_temporal": "origenes_temporales.csv"
+}

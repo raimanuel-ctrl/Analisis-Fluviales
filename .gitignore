@@ -24,3 +24,8 @@ Thumbs.db
 
 # Conservar versionados notebooks, documentación, parámetros,
 # selecciones manuales y ejemplos pequeños con permiso de redistribución.
+
+# Productos locales y entradas privadas de la memoria
+/memoria/resultados/
+/memoria/entradas_privadas/
+/memoria/configuracion_local.json

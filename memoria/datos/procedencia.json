@@ -1,0 +1,25 @@
+{
+  "version": "2026-11-09",
+  "base_cientifica": "Memoria final limpia reparada del 07/11/2026; datos de recortes del 06/11",
+  "fecha_datos": "2026-11-07",
+  "theta": 0.4,
+  "A0_m2": 1000000.0,
+  "n": 1,
+  "crs": "EPSG:32718",
+  "n_kp": 17,
+  "kp_potenciales": [
+    "KP-R11",
+    "KP-R14",
+    "KP-R17"
+  ],
+  "sin_kp_aceptado": [
+    "R07"
+  ],
+  "sin_k_adoptado": [
+    "R01"
+  ],
+  "sha256_documento_fuente": "57ab9e687e3c1f53e1f096aa1acffad5d17d83a1e6fec708161a8b2b9d0c221b",
+  "fuente_calibraciones_sha256": "e1d010c77ec8cb2c7076d92d355666c954c51e00a9df21ded88d8ac252a4e53d",
+  "fuente_tiempos_sha256": "e8d7dabff433d0c73fdfc4d83e3f7629003351df84d2615a355a9315dcf5a85f",
+  "publicacion": "Derivados propios. Sin catalogo espacial de terrazas, Ages_Final, manuscritos ni comparaciones externas no publicadas."
+}

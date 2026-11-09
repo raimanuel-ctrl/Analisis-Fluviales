@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Si utiliza el codigo o los datos derivados, cite esta version y conserve su commit."
+title: "Analisis-Fluviales: material computacional de la memoria de geomorfologia fluvial"
+type: software
+authors:
+  - family-names: "Sanchez Mosqueira"
+    given-names: "Raimundo"
+version: "2026.11.09"
+date-released: 2026-11-09
+repository-code: "https://github.com/raimanuel-ctrl/Analisis-Fluviales"
+url: "https://github.com/raimanuel-ctrl/Analisis-Fluviales/tree/main/memoria"
+license: MIT
+abstract: "Notebooks, instrumentos de seleccion y datos derivados para reproducir K, tiempos de propagacion, el modelo compuesto de Reloca y estimaciones condicionadas de alzamiento de 18 cauces costeros de Chile central. La licencia MIT corresponde al codigo propio; las fuentes cientificas conservan sus condiciones."
+keywords:
+  - geomorfologia fluvial
+  - knickpoints
+  - terrazas marinas
+  - Chile central

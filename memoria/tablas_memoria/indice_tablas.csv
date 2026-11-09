@@ -1,0 +1,14 @@
+tabla_memoria,archivo,contenido
+8,Tabla_08_alturas_dem_y_publicadas.csv,alturas dem y publicadas
+9,Tabla_09_k_por_interseccion.csv,k por interseccion
+10,Tabla_10_k_centrales.csv,k centrales
+11,Tabla_11_sensibilidad_altura_k.csv,sensibilidad altura k
+13,Tabla_13_k_y_tiempos_calibracion_propia.csv,k y tiempos calibracion propia
+14,Tabla_14_reloca_fronteras.csv,reloca fronteras
+15,Tabla_15_knickpoints_y_tiempos.csv,knickpoints y tiempos
+16,Tabla_16_sensibilidad_altura_tiempos.csv,sensibilidad altura tiempos
+17,Tabla_17_reloca_sensibilidad_alturas.csv,reloca sensibilidad alturas
+18,Tabla_18_incision_y_tasas_terrazas.csv,incision y tasas terrazas
+19,Tabla_19_alzamiento_medio_tramo.csv,alzamiento medio tramo
+20,Tabla_20_resumen_seis_receptores.csv,resumen seis receptores
+33,Tabla_33_origen_temporal_y_recorrido.csv,origen temporal y recorrido

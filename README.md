@@ -1,39 +1,58 @@
-# Fluvial profiles and coastal landscape evolution in central Chile
+# Perfiles fluviales y evolución del relieve costero de Chile central
 
-Python workflows for river morphometry, coastal terraces and conditional stream-power erodibility calibration. Geology thesis research by Raimundo Sánchez Mosqueira, Universidad de Chile.
+Material computacional de la memoria de título en Geología de Raimundo Sánchez Mosqueira, Universidad de Chile. Incluye los notebooks, instrumentos de selección y datos derivados utilizados para comparar los perfiles de 18 cauces entre 35°S y 36,5°S.
 
-## Current version
+**Versión de entrega: 2026.11.09.** Los resultados corresponden a la memoria final del 7 de noviembre. La carpeta [memoria](memoria/README.md) es la única entrada al flujo vigente.
 
-The **22 October 2026** update is in [notebooks/actual_20261022](notebooks/actual_20261022/README.md). It contains seven ordered notebooks, supporting modules and an explicit derived-data snapshot for the current thesis synthesis.
+## Accesos principales
 
-Start with [07 Synthesis of current results](notebooks/actual_20261022/Notebooks_principales_20261019/07_Sintesis_resultados_20261022.ipynb) to reproduce mean K, propagation times, Reloca C2 calibration residuals and modeled incision rates immediately below knickpoints. It includes its derived inputs and produces static PNG/SVG figures and CSV tables; no interactive application or unpublished external comparison is needed.
-
-The current synthesis has been numerically checked against saved thesis tables. The six upstream research notebooks have been checked for schema and syntax but were **not rerun** for this release. Full reproduction from the DEM still needs additional external inputs and a separately validated environment. These levels of verification are not interchangeable.
-
-## Scientific scope
-
-Eighteen coastal channels between 35°S and 36.5°S are compared using longitudinal profiles, χ, normalized steepness and mapped geology/faults. Six channels provide eight river/MIS calibration cases. The current analysis uses θ = 0.40, n = 1 and A₀ = 10⁶ m²; dimensional K is in m⁰·²/year.
-
-K_G denotes propagation calibration and K_P denotes slope/rate calibration. Means count distinct physical terrace-elevation crossings once and keep MIS 5c and 5e separate. Reloca uses the conditional C2 two-domain model, with residual checks at the original calibration points. Drainage-area and time-origin alternatives remain explicit. Modeled propagation times are not direct tectonic dates, and modeled incision is equated to uplift only under local equilibrium.
-
-The current results do not confirm a unique 0.8–1 Ma uplift pulse. Calibration method and donor MIS change the absolute time scale. Likewise, the lack of an unequivocal recent fluvial response near Pelluhue and Carranza does not establish fault inactivity.
-
-## Repository layout
-
-| Location | Contents |
+| Material | Acceso |
 | --- | --- |
-| [Current workflow](notebooks/actual_20261022/README.md) | Seven notebooks, supporting modules, dependency lists, provenance and current derived inputs. |
-| [Current numerical synthesis](notebooks/actual_20261022/sintesis_20261022.py) | Standalone equivalent of notebook 07. Creates dated local outputs without overwriting inputs. |
-| [Spatial data](data/README.md) | Working DEM through Git LFS, 18-outlet catalogue, main-channel layer and integrated geological compilation from the earlier release. |
-| [Verification notes](docs/REVIEW_20261022.md) | Static checks, executed synthesis, exclusions and remaining reproduction limits. |
-| [Earlier workflow](docs/SNAPSHOT_20261012.md) | Documentation of the 12 October release; its ten notebooks and code-only reading snapshots remain available for provenance. Not the current source of K/τ results. |
+| Ocho notebooks ordenados | [Ruta de trabajo 01–08](memoria/README.md#empezar) |
+| Reproducción de resultados | [08 · Síntesis y tablas](memoria/notebooks/08_sintesis_y_tablas_memoria.ipynb) |
+| Catálogo de 17 KP | [Posiciones adoptadas y potenciales](memoria/datos/catalogo_kp.csv) |
+| Correspondencia de identificadores | [Códigos públicos y originales](memoria/datos/equivalencias_identificadores_kp.csv) |
+| Selección geomorfológica de B | [Notebook 03 y visor 3D](memoria/notebooks/03_seleccion_B_y_visor_3d.ipynb) |
+| Explorador interactivo de perfiles/KP | [HTML autónomo](memoria/visores/Explorador_KP.html) |
+| Relieve 3D de los B adoptados | [HTML autónomo](memoria/visores/Visor_B_3D.html) |
+| Tablas de la memoria | [Índice y trece tablas finales](memoria/tablas_memoria/README.md) |
+| Datos y unidades | [Diccionario](memoria/docs/DICCIONARIO_DATOS.md) |
+| Qué se reprodujo | [Metodología y comprobaciones](memoria/docs/METODOLOGIA_Y_REPRODUCIBILIDAD.md) |
+| Referencia para el manuscrito | [Disponibilidad y cita del código](memoria/docs/REPOSITORIO_EN_LA_MEMORIA.md) |
 
-The earlier regional workflow used θ = 0.45 in some stages. Do not mix its K units, χ coordinates or outputs with the current θ = 0.40 calculations. Detailed differences and the required execution order are documented in each snapshot.
+Para abrir una aplicación, descargar el HTML y abrirlo en un navegador. GitHub muestra el código del archivo; no ejecuta el visor en su vista de repositorio. La distribución funciona localmente sin enviar datos a un servidor.
 
-## Reuse and publication boundaries
+## Reproducir la síntesis
 
-Install the synthesis dependencies, open Jupyter in the current directory and run notebook 07 in order, or run its standalone module. See the [current README](notebooks/actual_20261022/README.md) for commands and the complete workflow. Large rasters require `git lfs install` and `git lfs pull`; a source ZIP is not assumed to contain LFS raster bytes.
+```sh
+git clone https://github.com/raimanuel-ctrl/Analisis-Fluviales.git
+cd Analisis-Fluviales/memoria
+python -m pip install -r requirements.txt
+python -m src.analisis
+```
 
-Source notebooks are published without saved outputs, execution counts or personal filesystem paths. Private documents, correspondence, collaborators' original notebooks and unpublished external-comparison values are not redistributed. Omitted inputs are identified rather than replaced with invented examples. Original code is covered by the [MIT license](LICENSE); scientific datasets and third-party software retain their own conditions and attribution.
+Cada ejecución crea una carpeta nueva con seis tablas numéricas, tres figuras de control en PNG/SVG y la verificación de resultados. La síntesis utiliza datos derivados incluidos. El DEM es necesario para regenerar el relieve 3D y para las etapas topográficas originales; permanece en `data/dem/` mediante Git LFS.
 
-The author authorized publication of the derived profile, KP and K/time data. Terrace references are limited to [eight generic river/MIS entries](notebooks/actual_20261022/datos_sintesis/Terrazas_utilizadas_genericas.csv), with chronological values from the public 2015 paper. **The private Ages_Final workbook, its non-public contents and the original terrace coordinates/catalogue are excluded.** The generic entries are not a spatial replacement for those inputs.
+## Alcance científico
+
+Se utilizan θ = 0,40, n = 1 y A₀ = 10⁶ m². Las ocho asociaciones río/MIS reúnen 18 Pₜ físicos distintos. El promedio central de K cuenta cada punto una vez y conserva separados MIS 5c y 5e. Reloca utiliza C2 con dos dominios efectivos; los receptores del sur reciben el K de la cuenca completa de Curanilahue, con MIS 5e como escenario principal.
+
+Los tiempos de propagación se calculan desde los comienzos de tramo adoptados. U_KP = (z_KP − z_c)/τ_c se interpreta como una cota superior condicionada del alzamiento medio bajo una pendiente inicial mucho menor que la actual. Las tasas de incisión, las tasas costeras y U_KP conservan sus definiciones y duraciones de integración. La reproducción del cálculo no demuestra por sí sola una edad tectónica, un pulso regional único ni la inactividad de una falla.
+
+R01 conserva KP sin K adoptado; R07 tiene K y carece de KP aceptado. R11, R14 y R17 permanecen potenciales. Los seis receptores principales del sur son R10, R12, R13, R15, R16 y R18.
+
+## Organización y conservación
+
+- [memoria/](memoria/README.md): versión vigente, datos derivados, herramientas y tablas finales.
+- [data/](data/README.md): DEM, drenaje y geología publicados previamente, con sus condiciones de origen.
+- [archivo/](archivo/README.md): versiones de octubre y antecedentes metodológicos, conservados para trazabilidad.
+
+Las versiones anteriores quedan identificadas como históricas para evitar mezclar K, geometrías y orígenes temporales. Los originales de trabajo se conservan fuera de esta reorganización. Las [notas de selección](memoria/docs/SELECCION_DE_CONTENIDOS.md) explican qué material se mantuvo activo.
+
+El código propio está cubierto por [MIT](LICENSE). Las fuentes científicas conservan su autoría y condiciones. Los catálogos espaciales privados de terrazas, Ages_Final, correspondencia, manuscritos y valores no publicados de colaboradores quedan fuera de la distribución. La reproducción integral desde el DEM requiere insumos adicionales y el entorno de las etapas originales.
+
+## Citar
+
+Sánchez Mosqueira, R. (2026). *Analisis-Fluviales: material computacional de la memoria de geomorfología fluvial* (versión 2026.11.09) [Código y datos derivados]. GitHub. https://github.com/raimanuel-ctrl/Analisis-Fluviales
+
+Los metadatos están en [CITATION.cff](CITATION.cff). Para la entrega de la memoria se debe conservar también el identificador del commit utilizado.

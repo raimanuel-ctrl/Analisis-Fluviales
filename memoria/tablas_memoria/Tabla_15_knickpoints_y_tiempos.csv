@@ -1,0 +1,19 @@
+ID,ID KP,Río,Altura KP (m),τG 5e (ka),τP 5e (ka),Estado
+R01,KP-R01,Huenchullamí,"166,62",—,—,Reconocido
+R02,KP-R02,Cañete,"92,07","142,51","146,97",Reconocido
+R03,KP-R03,Quebrada Honda,"101,43","31,81","32,81",Reconocido
+R04,KP-R04,Malhueco,"149,98","147,37","151,99",Reconocido
+R05,KP-R05,Pinotalca,"54,24","180,67","182,63",Reconocido
+R06,KP-R06,Reloca,"125,72","710,05","544,35",Reconocido
+R07,,Chanco,—,—,—,Sin KP
+R08,KP-R08,Rahue,"172,07","413,82","388,70",Reconocido
+R09,KP-R09,Curanilahue,"211,62","466,37","354,11",Reconocido
+R10,KP-R10,Curanipe,"373,47","799,45","607,01",Reconocido
+R11,KP-R11,Chovellén,"221,86","1.061,23","805,77",Potencial
+R12,KP-R12,Tregualemu,"355,58","918,08","697,08",Reconocido
+R13,KP-R13,Límite Maule–Ñuble,"289,40","578,55","439,28",Reconocido
+R14,KP-R14,Buchupureo,"236,65","774,30","587,92",Potencial
+R15,KP-R15,Cobquecura,"159,53","459,99","349,26",Reconocido
+R16,KP-R16,Taucu,"220,46","1.185,09","899,82",Reconocido
+R17,KP-R17,Colmuyado,"396,89","1.376,95","1.045,50",Potencial
+R18,KP-R18,Mela,"248,28","821,74","623,94",Reconocido

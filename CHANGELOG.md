@@ -1,5 +1,15 @@
 # Registro de cambios
 
+## 2026-11-09 - Material final de la memoria
+
+- Reune el flujo vigente en memoria/ y conserva octubre en archivo/.
+- Ordena ocho notebooks, dieciocho perfiles, diecisiete KP y sus equivalencias.
+- Reproduce los tiempos finales con los recortes adoptados y Curanilahue completo.
+- Recupera los instrumentos de seleccion B 3D y revision de KP con entradas publicas.
+- Incorpora trece tablas de la memoria con nombres descriptivos y un diccionario.
+- Mantiene fuera los catalogos privados y los datos externos no publicados.
+
+
 ## 2026-10-12 — Documentation revision
 
 - Adopts an impersonal scientific tone and removes recipient-specific references from public documentation.
