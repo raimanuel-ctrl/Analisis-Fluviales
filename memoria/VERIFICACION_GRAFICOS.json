@@ -1,0 +1,497 @@
+{
+  "fecha": "2026-11-10",
+  "documento_referencia": "Memoria final limpia reparada del 07/11/2026",
+  "version_codigo": "2026.11.10",
+  "figuras_inventariadas": 56,
+  "graficos_esquemas_propios_generados": 47,
+  "reproducciones_bibliograficas": 1,
+  "mapas_excluidos": [
+    1,
+    3,
+    12,
+    17,
+    25,
+    27,
+    32,
+    40
+  ],
+  "figura_mixta_14": "Solo perfil, mapas excluidos",
+  "ajustes_regresion_OLS_cotejados": 68,
+  "ajustes_incision_OLS_cotejados": 216,
+  "pruebas_automatizadas": 10,
+  "todos_los_graficos_ejecutados_localmente": true,
+  "figuras_con_entradas_locales": [
+    2,
+    16,
+    29
+  ],
+  "salidas_svg_vectoriales": 47,
+  "bloques_de_formulas_readme": 22,
+  "fuente_theta_sha256": "692a14535271e63bf3af8d5dc33bb7f084608ab158b517e99f34e596d77a22a6",
+  "alcance": "Se regenera el contenido de datos y paneles; el estilo puede variar respecto del Word. Los esquemas son conceptuales y la figura 2 es una reproduccion bibliografica.",
+  "cobertura": [
+    {
+      "figura": 1,
+      "estado": "mapa_excluido"
+    },
+    {
+      "figura": 2,
+      "estado": "reproduccion_bibliografica",
+      "archivos": [
+        "Figura_02_referencia_bibliografica.png"
+      ],
+      "fuente": "Jara-Muñoz et al. 2015, figura 12, p. 186; no calculada por este código."
+    },
+    {
+      "figura": 3,
+      "estado": "mapa_excluido"
+    },
+    {
+      "figura": 4,
+      "estado": "generada",
+      "archivos": [
+        "Figura_04.png",
+        "Figura_04.svg"
+      ],
+      "nota": "Esquema conceptual, sin datos medidos; geometría ilustrativa."
+    },
+    {
+      "figura": 5,
+      "estado": "generada",
+      "archivos": [
+        "Figura_05.png",
+        "Figura_05.svg"
+      ],
+      "nota": "Esquema conceptual, sin datos medidos; geometría ilustrativa."
+    },
+    {
+      "figura": 6,
+      "estado": "generada",
+      "archivos": [
+        "Figura_06.png",
+        "Figura_06.svg"
+      ],
+      "nota": "Esquema conceptual, sin datos medidos; geometría ilustrativa."
+    },
+    {
+      "figura": 7,
+      "estado": "generada",
+      "archivos": [
+        "Figura_07.png",
+        "Figura_07.svg"
+      ],
+      "nota": "Esquema conceptual, sin datos medidos; geometría ilustrativa."
+    },
+    {
+      "figura": 8,
+      "estado": "generada",
+      "archivos": [
+        "Figura_08.png",
+        "Figura_08.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 9,
+      "estado": "generada",
+      "archivos": [
+        "Figura_09.png",
+        "Figura_09.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 10,
+      "estado": "generada",
+      "archivos": [
+        "Figura_10.png",
+        "Figura_10.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 11,
+      "estado": "generada",
+      "archivos": [
+        "Figura_11.png",
+        "Figura_11.svg"
+      ],
+      "nota": "Desplazamiento gráfico de 650 m entre curvas; sin significado geográfico."
+    },
+    {
+      "figura": 12,
+      "estado": "mapa_excluido"
+    },
+    {
+      "figura": 13,
+      "estado": "generada",
+      "archivos": [
+        "Figura_13.png",
+        "Figura_13.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 14,
+      "estado": "generada",
+      "archivos": [
+        "Figura_14_solo_perfil.png",
+        "Figura_14_solo_perfil.svg"
+      ],
+      "nota": "Solo panel de perfil. Los dos paneles cartográficos están fuera del alcance."
+    },
+    {
+      "figura": 15,
+      "estado": "generada",
+      "archivos": [
+        "Figura_15.png",
+        "Figura_15.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 16,
+      "estado": "generada",
+      "archivos": [
+        "Figura_16.png",
+        "Figura_16.svg"
+      ],
+      "nota": "Comparación externa suministrada localmente; valores no incluidos en el repositorio."
+    },
+    {
+      "figura": 17,
+      "estado": "mapa_excluido"
+    },
+    {
+      "figura": 18,
+      "estado": "generada",
+      "archivos": [
+        "Figura_18.png",
+        "Figura_18.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 19,
+      "estado": "generada",
+      "archivos": [
+        "Figura_19.png",
+        "Figura_19.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 20,
+      "estado": "generada",
+      "archivos": [
+        "Figura_20.png",
+        "Figura_20.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 21,
+      "estado": "generada",
+      "archivos": [
+        "Figura_21.png",
+        "Figura_21.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 22,
+      "estado": "generada",
+      "archivos": [
+        "Figura_22.png",
+        "Figura_22.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 23,
+      "estado": "generada",
+      "archivos": [
+        "Figura_23.png",
+        "Figura_23.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 24,
+      "estado": "generada",
+      "archivos": [
+        "Figura_24.png",
+        "Figura_24.svg"
+      ],
+      "nota": "Escenarios del ensayo norte conservados; no sustituyen las selecciones finales."
+    },
+    {
+      "figura": 25,
+      "estado": "mapa_excluido"
+    },
+    {
+      "figura": 26,
+      "estado": "generada",
+      "archivos": [
+        "Figura_26.png",
+        "Figura_26.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 27,
+      "estado": "mapa_excluido"
+    },
+    {
+      "figura": 28,
+      "estado": "generada",
+      "archivos": [
+        "Figura_28.png",
+        "Figura_28.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 29,
+      "estado": "generada",
+      "archivos": [
+        "Figura_29.png",
+        "Figura_29.svg"
+      ],
+      "nota": "La serie costera se suministra localmente; U_KP usa desnivel y tiempo entre los mismos extremos."
+    },
+    {
+      "figura": 30,
+      "estado": "generada",
+      "archivos": [
+        "Figura_30.png",
+        "Figura_30.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 31,
+      "estado": "generada",
+      "archivos": [
+        "Figura_31.png",
+        "Figura_31.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 32,
+      "estado": "mapa_excluido"
+    },
+    {
+      "figura": 33,
+      "estado": "generada",
+      "archivos": [
+        "Figura_33.png",
+        "Figura_33.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 34,
+      "estado": "generada",
+      "archivos": [
+        "Figura_34.png",
+        "Figura_34.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 35,
+      "estado": "generada",
+      "archivos": [
+        "Figura_35.png",
+        "Figura_35.svg"
+      ],
+      "nota": "Diagnóstico guardado, previo a algunas geometrías adoptadas; no selecciona automáticamente θ."
+    },
+    {
+      "figura": 36,
+      "estado": "generada",
+      "archivos": [
+        "Figura_36.png",
+        "Figura_36.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 37,
+      "estado": "generada",
+      "archivos": [
+        "Figura_37.png",
+        "Figura_37.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 38,
+      "estado": "generada",
+      "archivos": [
+        "Figura_38.png",
+        "Figura_38.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 39,
+      "estado": "generada",
+      "archivos": [
+        "Figura_39.png",
+        "Figura_39.svg"
+      ],
+      "nota": "Doce muestras de la tabla 1 publicada; sin datos del libro privado Ages_Final."
+    },
+    {
+      "figura": 40,
+      "estado": "mapa_excluido"
+    },
+    {
+      "figura": 41,
+      "estado": "generada",
+      "archivos": [
+        "Figura_41.png",
+        "Figura_41.svg"
+      ],
+      "nota": "Pendientes guardadas; intercepto reconstruido sobre los mismos nodos del ajuste."
+    },
+    {
+      "figura": 42,
+      "estado": "generada",
+      "archivos": [
+        "Figura_42.png",
+        "Figura_42.svg"
+      ],
+      "nota": "Pendientes guardadas; intercepto reconstruido sobre los mismos nodos del ajuste."
+    },
+    {
+      "figura": 43,
+      "estado": "generada",
+      "archivos": [
+        "Figura_43.png",
+        "Figura_43.svg"
+      ],
+      "nota": "Pendientes guardadas; intercepto reconstruido sobre los mismos nodos del ajuste."
+    },
+    {
+      "figura": 44,
+      "estado": "generada",
+      "archivos": [
+        "Figura_44.png",
+        "Figura_44.svg"
+      ],
+      "nota": "Escala saturada en ±100 %, con los valores completos conservados en CSV."
+    },
+    {
+      "figura": 45,
+      "estado": "generada",
+      "archivos": [
+        "Figura_45.png",
+        "Figura_45.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 46,
+      "estado": "generada",
+      "archivos": [
+        "Figura_46.png",
+        "Figura_46.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 47,
+      "estado": "generada",
+      "archivos": [
+        "Figura_47.png",
+        "Figura_47.svg"
+      ],
+      "nota": ""
+    },
+    {
+      "figura": 48,
+      "estado": "generada",
+      "archivos": [
+        "Figura_48.png",
+        "Figura_48.svg"
+      ],
+      "nota": "Coeficientes OLS guardados de la revisión; cruce sobre el perfil, no cota del cruce de rectas."
+    },
+    {
+      "figura": 49,
+      "estado": "generada",
+      "archivos": [
+        "Figura_49.png",
+        "Figura_49.svg"
+      ],
+      "nota": "Coeficientes OLS guardados de la revisión; cruce sobre el perfil, no cota del cruce de rectas."
+    },
+    {
+      "figura": 50,
+      "estado": "generada",
+      "archivos": [
+        "Figura_50.png",
+        "Figura_50.svg"
+      ],
+      "nota": "Coeficientes OLS guardados de la revisión; cruce sobre el perfil, no cota del cruce de rectas."
+    },
+    {
+      "figura": 51,
+      "estado": "generada",
+      "archivos": [
+        "Figura_51.png",
+        "Figura_51.svg"
+      ],
+      "nota": "Coeficientes OLS guardados de la revisión; cruce sobre el perfil, no cota del cruce de rectas."
+    },
+    {
+      "figura": 52,
+      "estado": "generada",
+      "archivos": [
+        "Figura_52.png",
+        "Figura_52.svg"
+      ],
+      "nota": "Coeficientes OLS guardados de la revisión; cruce sobre el perfil, no cota del cruce de rectas."
+    },
+    {
+      "figura": 53,
+      "estado": "generada",
+      "archivos": [
+        "Figura_53.png",
+        "Figura_53.svg"
+      ],
+      "nota": "Coeficientes OLS guardados de la revisión; cruce sobre el perfil, no cota del cruce de rectas."
+    },
+    {
+      "figura": 54,
+      "estado": "generada",
+      "archivos": [
+        "Figura_54.png",
+        "Figura_54.svg"
+      ],
+      "nota": "Coeficientes OLS guardados de la revisión; cruce sobre el perfil, no cota del cruce de rectas."
+    },
+    {
+      "figura": 55,
+      "estado": "generada",
+      "archivos": [
+        "Figura_55.png",
+        "Figura_55.svg"
+      ],
+      "nota": "Coeficientes OLS guardados de la revisión; cruce sobre el perfil, no cota del cruce de rectas."
+    },
+    {
+      "figura": 56,
+      "estado": "generada",
+      "archivos": [
+        "Figura_56.png",
+        "Figura_56.svg"
+      ],
+      "nota": "Coeficientes OLS guardados de la revisión; cruce sobre el perfil, no cota del cruce de rectas."
+    }
+  ]
+}

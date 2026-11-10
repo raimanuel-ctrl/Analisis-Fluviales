@@ -5,10 +5,12 @@ Texto propuesto para metodología o disponibilidad del código:
 > Los notebooks y módulos de procesamiento se organizaron en el repositorio Analisis-Fluviales (Sánchez Mosqueira, 2026). La versión de la memoria reúne los perfiles derivados de los 18 cauces, las selecciones de B y Pₜ, el catálogo de knickpoints y los parámetros necesarios para reproducir los coeficientes centrales de K, los tiempos de propagación y las estimaciones de alzamiento medio del tramo. Los identificadores de presentación conservan una correspondencia con los códigos originales de las selecciones.
 >
 > La distribución incluye el código del visor 3D empleado en la revisión de B y del explorador de perfiles y KP. Las tablas finales se identifican por su número y contenido. La reproducción numérica parte de datos derivados y se distingue del procesamiento integral del DEM, que requiere el entorno y los insumos de sus etapas originales. Los catálogos privados y los datos no publicados de colaboradores se mantienen fuera de la distribución.
+>
+> El notebook de gráficos conserva la numeración del informe y permite regenerar sus gráficos y esquemas propios. Los mapas se excluyen de este procedimiento. Las comparaciones con datos externos y la reproducción bibliográfica declaran sus entradas locales y su procedencia.
 
 Referencia bibliográfica propuesta:
 
-Sánchez Mosqueira, R. (2026). *Analisis-Fluviales: material computacional de la memoria de geomorfología fluvial* (versión 2026.11.09) [Código y datos derivados]. GitHub. https://github.com/raimanuel-ctrl/Analisis-Fluviales
+Sánchez Mosqueira, R. (2026). *Analisis-Fluviales: material computacional de la memoria de geomorfología fluvial* (versión 2026.11.10) [Código y datos derivados]. GitHub. https://github.com/raimanuel-ctrl/Analisis-Fluviales
 
 Para fijar la versión de entrega, utilizar además el identificador del commit que contiene esta actualización. `CITATION.cff` proporciona los metadatos bibliográficos del código. No se asigna un DOI inexistente.
 

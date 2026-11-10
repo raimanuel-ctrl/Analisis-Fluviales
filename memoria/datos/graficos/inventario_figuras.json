@@ -1,0 +1,450 @@
+[
+  {
+    "figura": 1,
+    "tipo": "mapa_excluido",
+    "pie": "Figura 1. Área de estudio, relieve, 18 cauces y puntos de cierre del SHP del autor. Se muestran Carranza, Pelluhue y las estructuras regionales representadas en la composición. El recuadro sitúa el sector en Chile; la barra de 0–2.000 km corresponde a ese recuadro y la de 0–20 km, al mapa principal. Composición cartográfica del autor, con referencia WGS 84 / UTM 18S.",
+    "entrada_local_privada": false,
+    "funcion": "",
+    "observacion": ""
+  },
+  {
+    "figura": 2,
+    "tipo": "referencia_bibliografica",
+    "pie": "Figura 2. Variación regional de la deformación permanente a lo largo de la ruptura del Maule. Panel A: elevaciones de las terrazas MIS 5e y 5c, restricciones de edad y topografía máxima del swath. Panel B: tasas de alzamiento inferidas de las terrazas y ubicación de fallas principales; la línea blanca discontinua indica el promedio regional. La distancia sigue el perfil de sur a norte y el intervalo representado excede el área de esta memoria. Reproducida de Jara-Muñoz et al. (2015), fig. 12 del artículo, p. 186.",
+    "entrada_local_privada": true,
+    "funcion": "Graficos.generar (reproducción bibliográfica)",
+    "observacion": "Reproduccion de la fig. 12 de Jara-Munoz et al. (2015), no resultado calculado por el autor"
+  },
+  {
+    "figura": 3,
+    "tipo": "mapa_excluido",
+    "pie": "Figura 3. Unidades geológicas y cobertura de las cartas disponibles. Los marcos identifican Jorquera et al. (2023), la carta preliminar de Chanco y Gajardo (1981). El tramado señala sectores sin una carta de detalle en los insumos representados; la cartografía regional a 1:1.000.000 se utiliza como contexto adicional. Las estrellas llenas indican KP reconocidos y las vacías los potenciales R11, R14 y R17. Los depósitos cartografiados en el fondo del valle se distinguen del sustrato interpretado. Composición del autor, con actualización del símbolo de R14.",
+    "entrada_local_privada": false,
+    "funcion": "",
+    "observacion": ""
+  },
+  {
+    "figura": 4,
+    "tipo": "esquema_conceptual",
+    "pie": "Figura 4. Representaciones conceptuales de un perfil a) fluvial en distancia–elevación y b) χ–elevación. El punto destaca una misma ruptura en las dos vistas. Las variables se expresan en escalas relativas y no corresponden a un río del área de estudio. Elaboración basada en Perron y Royden (2013).",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.conceptual(4)",
+    "observacion": "Elaboracion conceptual, sin datos medidos"
+  },
+  {
+    "figura": 5,
+    "tipo": "esquema_conceptual",
+    "pie": "Figura 5. Propagación conceptual de una respuesta fluvial a un descenso del nivel de base. Las curvas representan momentos sucesivos: el frente separa el tramo inferior ajustado del tramo superior heredado y migra hacia las cabeceras. La flecha indica ese sentido de propagación; las separaciones entre curvas son esquemáticas y no permiten medir una velocidad, un intervalo temporal o un desplazamiento de falla. Basada en Whipple y Tucker (1999).",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.conceptual(5)",
+    "observacion": "Elaboracion conceptual, sin datos medidos"
+  },
+  {
+    "figura": 6,
+    "tipo": "esquema_conceptual",
+    "pie": "Figura 6. Comparación conceptual de los estimadores de erodabilidad efectiva para n = 1. (a) KG utiliza la edad T asignada al recorrido B–PT y su diferencia de χ; PT se sitúa a la elevación H de la referencia de terraza. (b) KP relaciona Uterraza con ksn, obtenido de la pendiente Mχ del ajuste del tramo, bajo el supuesto E ≈ U. Ambos paneles representan χ frente a elevación y son esquemáticos, sin escala.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.conceptual(6)",
+    "observacion": "Elaboracion conceptual, sin datos medidos"
+  },
+  {
+    "figura": 7,
+    "tipo": "esquema_conceptual",
+    "pie": "Figura 7. Procedimiento de análisis. La identificación visual inicial de KP con KPfinder se contrasta con ajustes lineales locales y se revisa por río. La extracción topográfica y el análisis de terrazas convergen en la calibración B–Pₜ. Los KP adoptados se utilizan después en el cálculo de τ y en las comparaciones regionales. Los anexos conservan las alternativas de posición y calibración.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.conceptual(7)",
+    "observacion": "Elaboracion conceptual, sin datos medidos"
+  },
+  {
+    "figura": 8,
+    "tipo": "grafico",
+    "pie": "Figura 8. Cierres adoptados sobre los perfiles costeros de A, Huenchullamí (R01); B, Malhueco (R04); C, Chovellén (R11); y D, Buchupureo (R14). El cuadrado azul y la línea discontinua indican el outlet, y el sombreado, el tramo inferior excluido. Las estrellas rojas llenas identifican KP reconocidos y las vacías, los potenciales de R11 y R14. Las distancias siguen el cauce desde la referencia costera. Elevaciones del DEM original.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_8",
+    "observacion": ""
+  },
+  {
+    "figura": 9,
+    "tipo": "grafico",
+    "pie": "Figura 9. Delimitación del tramo de análisis en Curanilahue. El perfil completo se representa en azul y la estrella señala el KP reconocido. El sombreado gris identifica el sector inferior excluido del recorrido temporal; la línea discontinua fija el inicio del tramo. Las áreas aportantes corresponden a la cuenca completa de 119,19 km².",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_9",
+    "observacion": ""
+  },
+  {
+    "figura": 10,
+    "tipo": "grafico",
+    "pie": "Figura 10. Primer Pₜ, Pₜ intermedio real y último Pₜ de Pinotalca (R05), definidos por la misma elevación H. El triángulo invertido identifica B y los tres símbolos sobre H corresponden a intersecciones reales del perfil sin suavizar. Las distancias se refieren al outlet del perfil.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_10",
+    "observacion": ""
+  },
+  {
+    "figura": 11,
+    "tipo": "grafico",
+    "pie": "Figura 11. Perfiles χ–elevación de los 18 cauces, separados en R01–R09 y R10–R18. Cada curva representa la elevación relativa sobre el outlet de su perfil, z − zoutlet, en función de χ. Las curvas se trasladan horizontalmente para facilitar la lectura y sus posiciones relativas entre ríos no representan distancias geográficas. Las estrellas llenas identifican los KP reconocidos y las vacías, los potenciales; Chanco permanece sin KP aceptado. θ = 0,40 y A₀ = 10⁶ m².",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_11",
+    "observacion": ""
+  },
+  {
+    "figura": 12,
+    "tipo": "mapa_excluido",
+    "pie": "Figura 12. Ejemplo cartográfico de calibración en Malhueco (R04). Se muestran el cauce, sus tributarios, la cuenca, la referencia de terraza MIS 5e, los símbolos de B y Pₜ y el KP. La carta regional a 1:1.000.000 aporta contexto en este sector; El Yolki se representa con cinemática inferida en la composición del autor. La ubicación a igual cota define Pₜ, mientras la asignación de la edad de terraza al recorrido B–Pₜ conserva el supuesto físico de calibración. Figura preparada por el autor.",
+    "entrada_local_privada": false,
+    "funcion": "",
+    "observacion": ""
+  },
+  {
+    "figura": 13,
+    "tipo": "grafico",
+    "pie": "Figura 13. Geometría de calibración en Chanco y Curanilahue. Izquierda: perfil longitudinal. Derecha: perfil χ–elevación y separación Δχ entre B y el Pₜ intermedio real. Los triángulos invertidos representan B, los círculos Pₜ y las líneas punteadas H. Los tonos de azul distinguen MIS 5c y 5e. Curanilahue utiliza su cuenca completa.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_13",
+    "observacion": ""
+  },
+  {
+    "figura": 14,
+    "tipo": "panel_grafico_sin_mapas",
+    "pie": "Figura 14. Cuenca completa de Curanilahue y geometría de calibración. El panel a muestra la divisoria de 119,19 km² y el panel b amplía el tramo de calibración. El perfil inferior sitúa B, los Pₜ físicos y el KP reconocido. Los azules y verdes distinguen MIS 5c y MIS 5e. El marco, la flecha norte y la leyenda siguen el formato cartográfico del autor; las unidades utilizan los colores de las cartas sobre el relieve sombreado. La barra de escala corresponde al panel a. WGS 84 / UTM 18S.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_14",
+    "observacion": "Solo perfil inferior; mapas a y b excluidos"
+  },
+  {
+    "figura": 15,
+    "tipo": "grafico",
+    "pie": "Figura 15. KG y KP centrales frente a la latitud, de norte a sur. Los círculos corresponden a MIS 5e y los cuadrados a MIS 5c. Las etiquetas identifican los ríos. Los valores y criterios de síntesis se indican en Tabla 10. Los puntos se muestran sin ajuste de regresión.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_15",
+    "observacion": ""
+  },
+  {
+    "figura": 16,
+    "tipo": "grafico",
+    "pie": "Figura 16. Comparación de K para m = 0,40 y n = 1 en escala logarítmica. Las barras grises muestran los rangos de Stock y Montgomery (1999). Los círculos azules y cuadrados verdes distinguen KG y KP locales. Los tres valores de Long (comunicación personal, 2026) en Mataquito se presentan en filas separadas, con símbolos propios y sus errores comunicados. Los estimadores locales se separan levemente en vertical para evitar superposiciones. Reloca corresponde al contraste uniforme, mientras su caso adoptado C2 se analiza por separado.",
+    "entrada_local_privada": true,
+    "funcion": "Graficos.figura_16",
+    "observacion": ""
+  },
+  {
+    "figura": 17,
+    "tipo": "mapa_excluido",
+    "pie": "Figura 17. Fronteras alternativas de K en Reloca sobre la carta geológica de Jorquera et al. (2023). Los símbolos rojos numerados identifican C1–C4, la estrella amarilla el KP y la línea negra discontinua la traza de Pelluhue de CHAF. Las fronteras delimitan escenarios del recorrido compuesto. Composición cartográfica del autor, en WGS 84 / UTM 18S.",
+    "entrada_local_privada": false,
+    "funcion": "",
+    "observacion": ""
+  },
+  {
+    "figura": 18,
+    "tipo": "grafico",
+    "pie": "Figura 18. Perfil elevación–τ de Reloca bajo el modelo C2, separado por MIS del donante superior. La línea vertical discontinua marca τ = 0 en el inicio del tramo adoptado. La curva gris punteada muestra el sector inferior excluido, situado a tiempos negativos únicamente como contexto geométrico. El rombo verde identifica C2 y la estrella roja el KP reconocido. La terraza local corresponde a MIS 5e en ambos paneles.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_18",
+    "observacion": ""
+  },
+  {
+    "figura": 19,
+    "tipo": "grafico",
+    "pie": "Figura 19. Sensibilidad de Reloca a la frontera entre dominios de K. Izquierda: tiempo desde la referencia temporal adoptada al KP para C2, C3 y C4, separado por MIS del donante superior. Los puntos representan la síntesis obtenida con el K inferior promedio. Derecha: RMSE de los residuos del intervalo B–Pₜ respecto de la edad local de 125 ka. C2 es la hipótesis geológica preferida; C3 y C4 presentan menor RMSE. La terraza local permanece asignada a MIS 5e.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_19",
+    "observacion": ""
+  },
+  {
+    "figura": 20,
+    "tipo": "grafico",
+    "pie": "Figura 20. τ desde la referencia temporal adoptada hasta los KP, ordenado de norte a sur y separado por método y MIS. Las estrellas rojas llenas corresponden a la selección principal y las vacías a R11, R14 y R17 potenciales. Los números identifican los ríos. Reloca utiliza C2 y Curanilahue su cuenca completa.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_20",
+    "observacion": ""
+  },
+  {
+    "figura": 21,
+    "tipo": "grafico",
+    "pie": "Figura 21. Elevaciones de los KP respecto de la latitud (izquierda) y del tiempo con KG–5e (derecha). El panel altitudinal incluye Huenchullamí (R01), que carece de K adoptado y por ello no aparece en el panel temporal. Las estrellas llenas identifican KP reconocidos y las vacías, potenciales. Chanco carece de KP aceptado. Se conservan las cotas y los tiempos del catálogo adoptado.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_21",
+    "observacion": ""
+  },
+  {
+    "figura": 22,
+    "tipo": "grafico",
+    "pie": "Figura 22. Sensibilidad de τ de los receptores del sur a la altura utilizada para calibrar KG de Curanilahue. Los círculos corresponden a H del DEM y los rombos a H de Jara-Muñoz. Los símbolos vacíos y el asterisco identifican R11, R14 y R17. Cada segmento vincula los dos escenarios de un mismo río y MIS.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_22",
+    "observacion": ""
+  },
+  {
+    "figura": 23,
+    "tipo": "grafico",
+    "pie": "Figura 23. Perfiles longitudinales y χ–elevación de Cañete (R02), Quebrada Honda (R03) y Malhueco (R04). Las curvas continuas representan las geometrías adoptadas y las discontinuas, la extensión basal recuperada para el ensayo en R03 y R04. Los perfiles de R02 coinciden. Las estrellas señalan los KP adoptados. Cada geometría conserva su referencia espacial y B interviene únicamente en la calibración de K.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_23",
+    "observacion": ""
+  },
+  {
+    "figura": 24,
+    "tipo": "grafico",
+    "pie": "Figura 24. τ hasta los KP reconocidos y alternativos de R02–R04 con los KG de R04–5e, R09–5e y R09–5c. Las estrellas rojas corresponden a la selección principal y los círculos azules vacíos a los alternativos. Los puntos se muestran sin unir y la línea gris indica 125 ka.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_24",
+    "observacion": ""
+  },
+  {
+    "figura": 25,
+    "tipo": "mapa_excluido",
+    "pie": "Figura 25. Comparación de ksn para ventanas centradas de 250, 500, 750 y 1.000 m en Carranza y Pelluhue. Los cuatro paneles conservan la misma red derivada del DEM, segmentos de área aportante ≥1 km² y una escala continua común de 0–100 m⁰·⁸, de azul a rojo. Los valores superiores se representan con el color extremo. El gris identifica ajustes no válidos y las estrellas llenas o vacías distinguen KP reconocidos y potenciales. θ = 0,40, A₀ = 1 km². WGS 84 / UTM 18S.",
+    "entrada_local_privada": false,
+    "funcion": "",
+    "observacion": ""
+  },
+  {
+    "figura": 26,
+    "tipo": "grafico",
+    "pie": "Figura 26. Perfil longitudinal de Rahue desde el outlet del SHP. El cuadrado identifica el outlet, el triángulo invertido B (N07) y la estrella el KP manual. Las líneas grises indican cruces con Pelluhue calculados sobre CHAF. Se conserva la separación del KP respecto de los cruces y se omite el panel de ksn de la figura anterior.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_26",
+    "observacion": ""
+  },
+  {
+    "figura": 27,
+    "tipo": "mapa_excluido",
+    "pie": "Figura 27. Drenaje, cuencas y trazas estructurales en el sector de Carranza y Pelluhue. Se muestran cauces principales, tributarios, puntos de cierre y KP con sus cotas. El polígono celeste representa el graben utilizado como referencia cartográfica; El Yolki se conserva como traza inferida. Los símbolos de falla reproducen la interpretación de la composición suministrada por el autor. WGS 84 / UTM 18S.",
+    "entrada_local_privada": false,
+    "funcion": "",
+    "observacion": ""
+  },
+  {
+    "figura": 28,
+    "tipo": "grafico",
+    "pie": "Figura 28. Incisión modelada KG ksn en la ventana solicitada de 2.000 m aguas abajo del KP, por latitud y MIS. Los círculos llenos representan KP reconocidos y los vacíos, los potenciales R11, R14 y R17. El rombo vacío distingue R03, cuya longitud efectiva es de 712 m. Los paneles comparten la escala vertical. θ = 0,40 y A₀ = 1 km².",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_28",
+    "observacion": ""
+  },
+  {
+    "figura": 29,
+    "tipo": "grafico",
+    "pie": "Figura 29. Cota superior condicionada del alzamiento medio del tramo mediante UKP = (zKP − zc)/τc y tasas costeras de Jara-Muñoz et al. (2015), con MIS 5e como referencia. Los círculos azules representan los cauces con KG y los vacíos identifican KP potenciales. Los cuadrados verdes muestran las 60 terrazas MIS 5e del catálogo entre 35°S y 36,5°S, con sus errores reportados. El panel superior reúne el intervalo completo y el inferior amplía el detalle de 0–1,1 mm/año. zc es la cota del inicio del tramo y τc el tiempo hasta el KP; ambos extremos coinciden con los utilizados para calcular el relieve. Reloca utiliza C2. Las tasas costeras y sus errores se conservan.",
+    "entrada_local_privada": true,
+    "funcion": "Graficos.figura_29",
+    "observacion": ""
+  },
+  {
+    "figura": 30,
+    "tipo": "grafico",
+    "pie": "Figura 30. Reloca: perfil χ–elevación completo y detalle de C1–C4 y del KP, sin bandas litológicas. Las líneas verticales sitúan las fronteras alternativas y C2 se destaca en azul. La estrella roja identifica el KP. La figura permite examinar la geometría antes de convertir χ en τ con uno o dos K. θ = 0,40 y A₀ = 10⁶ m².",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_30",
+    "observacion": ""
+  },
+  {
+    "figura": 31,
+    "tipo": "grafico",
+    "pie": "Figura 31. Síntesis de τ de los seis receptores con KP reconocido, separada por método y MIS. Los segmentos muestran el intervalo entre el mínimo y el máximo, los círculos el promedio y las marcas rojas la mediana. R11, R14 y R17 se conservan como potenciales fuera de esta síntesis.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_31",
+    "observacion": ""
+  },
+  {
+    "figura": 32,
+    "tipo": "mapa_excluido",
+    "pie": "Figura 32. Rahue: contexto geológico y drenaje, y detalle del KP frente a la traza CHAF de Pelluhue. La separación mínima KP–traza es de aproximadamente 455 m y se distingue del recorrido a lo largo del cauce. La leyenda conserva las asociaciones litológicas representadas, las fuentes cartográficas y las divisorias utilizadas como contexto. WGS 84 / UTM 18S. Las unidades preliminares y los sectores sin caracterización confirmada mantienen su estado explícito.",
+    "entrada_local_privada": false,
+    "funcion": "",
+    "observacion": ""
+  },
+  {
+    "figura": 33,
+    "tipo": "grafico",
+    "pie": "Figura 33. Sensibilidad del tiempo en los seis receptores con KP reconocido ante cinco decisiones. Se comparan selección inicial y adoptada del KP, recorrido extendido y tramo adoptado, altura DEM y catálogo, MIS y estimador de K. Cada punto representa un receptor y el segmento abarca el mínimo y el máximo. Cada contraste modifica una decisión por vez; las variaciones no se suman como un error total.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_33",
+    "observacion": ""
+  },
+  {
+    "figura": 34,
+    "tipo": "grafico",
+    "pie": "Figura 34. Perfiles elevación–τ en cuatro paneles alargados: R01–R09 con MIS 5c y 5e, seguidos de R10–R18 con MIS 5c y 5e. Los paneles comparten las escalas horizontal y vertical, y τ comienza en el inicio del tramo adoptado. Las estrellas llenas indican KP reconocidos y las vacías, potenciales. Se representan únicamente las calibraciones disponibles: en el norte, MIS 5c corresponde a Reloca y Curanilahue; R01 carece de K adoptado y Chanco se muestra sin KP. Reloca utiliza dos dominios de K con frontera C2, mientras R10–R18 reciben el KG medio de la cuenca completa de Curanilahue.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_34",
+    "observacion": ""
+  },
+  {
+    "figura": 35,
+    "tipo": "grafico",
+    "pie": "Figura 35. Diagnóstico de concavidad de los 18 cauces. A: variación del R² de z–χ al ensayar θ en los perfiles completos. B: θ de mayor R² dentro del intervalo considerado; la línea discontinua indica el valor de referencia 0,40. Se representan resultados guardados de la exploración descriptiva y se conserva su alcance, previo a algunas geometrías adoptadas.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_35",
+    "observacion": ""
+  },
+  {
+    "figura": 36,
+    "tipo": "grafico",
+    "pie": "Figura 36. R01: perfil longitudinal y χ–elevación de la geometría adoptada. Los ejes se refieren al outlet. La estrella roja representa el KP de selección principal. θ = 0,40 y A₀ = 10⁶ m².",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.perfil_doble(36,1)",
+    "observacion": ""
+  },
+  {
+    "figura": 37,
+    "tipo": "grafico",
+    "pie": "Figura 37. R07: perfil longitudinal y χ–elevación de la geometría adoptada. Los ejes se refieren al outlet. Chanco permanece sin KP aceptado. θ = 0,40 y A₀ = 10⁶ m².",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.perfil_doble(37,7)",
+    "observacion": ""
+  },
+  {
+    "figura": 38,
+    "tipo": "grafico",
+    "pie": "Figura 38. R17: perfil longitudinal y χ–elevación de la geometría adoptada. Los ejes se refieren al outlet. La estrella roja vacía representa el KP potencial. θ = 0,40 y A₀ = 10⁶ m².",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.perfil_doble(38,17)",
+    "observacion": ""
+  },
+  {
+    "figura": 39,
+    "tipo": "grafico",
+    "pie": "Figura 39. Sobredispersión y número de alícuotas de las doce muestras de terrazas de la Tabla 1 de Jara-Muñoz et al. (2015). Los cuadrados azul oscuro identifican las tres muestras utilizadas en el área; los círculos azules vacíos, las dos de baja OD fuera del área; y las cruces grises, las de OD superior al criterio. La línea discontinua sitúa el 15 %.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_39",
+    "observacion": ""
+  },
+  {
+    "figura": 40,
+    "tipo": "mapa_excluido",
+    "pie": "Figura 40. Remanentes MPeb A y B a ambos lados del valle de Reloca, en el contexto regional y en detalle próximo a C2. Los colores y códigos corresponden a la carta de Jorquera et al. (2023). La continuidad de sus bordes a través del valle sustenta la posición interpretada de C2; en el texto se evalúa una franja de alternativas entre C1 y C3. WGS 84 / UTM 18S.",
+    "entrada_local_privada": false,
+    "funcion": "",
+    "observacion": ""
+  },
+  {
+    "figura": 41,
+    "tipo": "grafico",
+    "pie": "Figura 41. Quebrada Honda: perfil adoptado, ajustes elevación–χ y tasas para ocho longitudes solicitadas. Las ventanas de 750–4.000 m repiten los nodos disponibles del ajuste, de 712 m efectivos. Los símbolos vacíos identifican cobertura inferior a 95 %. K fijo, θ = 0,40 y A₀ = 10⁶ m².",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.ventanas(41,3)",
+    "observacion": ""
+  },
+  {
+    "figura": 42,
+    "tipo": "grafico",
+    "pie": "Figura 42. Reloca: perfil, ajustes elevación–χ, incisión modelada y cobertura para ocho ventanas. Los MIS identifican los K superiores transferidos de Curanilahue, utilizados en el tramo próximo al KP. K fijo dentro de cada caso, θ = 0,40 y A₀ = 10⁶ m².",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.ventanas(42,6)",
+    "observacion": ""
+  },
+  {
+    "figura": 43,
+    "tipo": "grafico",
+    "pie": "Figura 43. Rahue: perfil, ajustes elevación–χ, incisión modelada y cobertura. La ventana de 250 m tiene cobertura de 94,7 % y se identifica como parcial. KG de MIS 5e fijo, θ = 0,40 y A₀ = 10⁶ m².",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.ventanas(43,8)",
+    "observacion": ""
+  },
+  {
+    "figura": 44,
+    "tipo": "grafico",
+    "pie": "Figura 44. Sensibilidad de la incisión modelada al largo de ventana. Cada panel conserva los casos de un MIS. El cambio respecto de 2 km se indica mediante la escala de colores, saturada en ±100 %. El signo ? identifica los KP potenciales. Se mantienen 216 combinaciones, con K fijo por caso.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_44",
+    "observacion": ""
+  },
+  {
+    "figura": 45,
+    "tipo": "grafico",
+    "pie": "Figura 45. Reloca: perfil χ–elevación completo y comparación temporal desde el corte, manteniendo los K del contraste uniforme y del modelo C2 con donante MIS 5e. Las estrellas sitúan el mismo KP adoptado. El tramo anterior al corte se conserva en gris como contexto; sus valores temporales negativos solo indican su posición respecto de la referencia revisada. La calibración B–Pt permanece sin cambios.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.figura_45",
+    "observacion": ""
+  },
+  {
+    "figura": 46,
+    "tipo": "grafico",
+    "pie": "Figura 46. Buchupureo (R14): perfiles elevación–τ con los promedios de KG y KP transferidas de Curanilahue. Las líneas distinguen MIS y las estrellas vacías el KP manual potencial. El caso se conserva como contraste y queda fuera de los estadísticos principales. El tramo anterior al inicio del tramo adoptado se muestra en gris; las coordenadas temporales negativas se conservan solo como contexto del perfil completo.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.temporal_doble(46,14)",
+    "observacion": ""
+  },
+  {
+    "figura": 47,
+    "tipo": "grafico",
+    "pie": "Figura 47. Curanilahue (R09): perfiles elevación–τ de la cuenca completa desde la referencia temporal adoptada, con los promedios de KG y KP por MIS. Las estrellas señalan el KP adoptado. El tramo anterior al inicio del tramo adoptado se muestra en gris; las coordenadas temporales negativas se conservan solo como contexto del perfil completo.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.temporal_doble(47,9)",
+    "observacion": ""
+  },
+  {
+    "figura": 48,
+    "tipo": "grafico",
+    "pie": "Figura 48. R03 Quebrada Honda: ajustes de todo el tramo (A) y de 3 km por lado (B) en χ–elevación. Ambos paneles muestran el perfil completo y respetan el recorte inferior en gris y la exclusión ±100 m alrededor de la referencia manual inicial. Las cruces indican esa referencia; las estrellas, los KP adoptados, vacíos si son potenciales. Los rombos vacíos son cruces exploratorios sobre el perfil y se omiten cuando quedan fuera del dominio evaluado. Los ajustes inferiores son azules y los superiores, verdes.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.regresion(48,3)",
+    "observacion": ""
+  },
+  {
+    "figura": 49,
+    "tipo": "grafico",
+    "pie": "Figura 49. R08 Rahue: ajustes de todo el tramo (A) y de 3 km por lado (B) en χ–elevación. Ambos paneles muestran el perfil completo y respetan el recorte inferior en gris y la exclusión ±100 m alrededor de la referencia manual inicial. Las cruces indican esa referencia; las estrellas, los KP adoptados, vacíos si son potenciales. Los rombos vacíos son cruces exploratorios sobre el perfil y se omiten cuando quedan fuera del dominio evaluado. Los ajustes inferiores son azules y los superiores, verdes.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.regresion(49,8)",
+    "observacion": ""
+  },
+  {
+    "figura": 50,
+    "tipo": "grafico",
+    "pie": "Figura 50. R06 Reloca: ajustes de todo el tramo (A) y de 3 km por lado (B) en χ–elevación. Ambos paneles muestran el perfil completo y respetan el recorte inferior en gris y la exclusión ±100 m alrededor de la referencia manual inicial. Las cruces indican esa referencia; las estrellas, los KP adoptados, vacíos si son potenciales. Los rombos vacíos son cruces exploratorios sobre el perfil y se omiten cuando quedan fuera del dominio evaluado. Los ajustes inferiores son azules y los superiores, verdes.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.regresion(50,6)",
+    "observacion": ""
+  },
+  {
+    "figura": 51,
+    "tipo": "grafico",
+    "pie": "Figura 51. R09 Curanilahue: ajustes de todo el tramo (A) y de 3 km por lado (B) en χ–elevación. Ambos paneles muestran el perfil completo y respetan el recorte inferior en gris y la exclusión ±100 m alrededor de la referencia manual inicial. Las cruces indican esa referencia; las estrellas, los KP adoptados, vacíos si son potenciales. Los rombos vacíos son cruces exploratorios sobre el perfil y se omiten cuando quedan fuera del dominio evaluado. Los ajustes inferiores son azules y los superiores, verdes.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.regresion(51,9)",
+    "observacion": ""
+  },
+  {
+    "figura": 52,
+    "tipo": "grafico",
+    "pie": "Figura 52. R10 Curanipe: ajustes de todo el tramo (A) y de 3 km por lado (B) en χ–elevación. Ambos paneles muestran el perfil completo y respetan el recorte inferior en gris y la exclusión ±100 m alrededor de la referencia manual inicial. Las cruces indican esa referencia; las estrellas, los KP adoptados, vacíos si son potenciales. Los rombos vacíos son cruces exploratorios sobre el perfil y se omiten cuando quedan fuera del dominio evaluado. Los ajustes inferiores son azules y los superiores, verdes.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.regresion(52,10)",
+    "observacion": ""
+  },
+  {
+    "figura": 53,
+    "tipo": "grafico",
+    "pie": "Figura 53. R14 Buchupureo: ajustes de todo el tramo (A) y de 3 km por lado (B) en χ–elevación. Ambos paneles muestran el perfil completo y respetan el recorte inferior en gris y la exclusión ±100 m alrededor de la referencia manual inicial. Las cruces indican esa referencia; las estrellas, los KP adoptados, vacíos si son potenciales. Los rombos vacíos son cruces exploratorios sobre el perfil y se omiten cuando quedan fuera del dominio evaluado. Los ajustes inferiores son azules y los superiores, verdes.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.regresion(53,14)",
+    "observacion": ""
+  },
+  {
+    "figura": 54,
+    "tipo": "grafico",
+    "pie": "Figura 54. R16 Taucu: ajustes de todo el tramo (A) y de 3 km por lado (B) en χ–elevación. Ambos paneles muestran el perfil completo y respetan el recorte inferior en gris y la exclusión ±100 m alrededor de la referencia manual inicial. Las cruces indican esa referencia; las estrellas, los KP adoptados, vacíos si son potenciales. Los rombos vacíos son cruces exploratorios sobre el perfil y se omiten cuando quedan fuera del dominio evaluado. Los ajustes inferiores son azules y los superiores, verdes.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.regresion(54,16)",
+    "observacion": ""
+  },
+  {
+    "figura": 55,
+    "tipo": "grafico",
+    "pie": "Figura 55. R18 Mela: ajustes de todo el tramo (A) y de 3 km por lado (B) en χ–elevación. Ambos paneles muestran el perfil completo y respetan el recorte inferior en gris y la exclusión ±100 m alrededor de la referencia manual inicial. Las cruces indican esa referencia; las estrellas, los KP adoptados, vacíos si son potenciales. Los rombos vacíos son cruces exploratorios sobre el perfil y se omiten cuando quedan fuera del dominio evaluado. Los ajustes inferiores son azules y los superiores, verdes.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.regresion(55,18)",
+    "observacion": ""
+  },
+  {
+    "figura": 56,
+    "tipo": "grafico",
+    "pie": "Figura 56. Tregualemu (R12): ajustes de todo el tramo y de 3 km por lado. El perfil completo permanece visible y el gris identifica el tramo inferior excluido. La cruz corresponde al KP manual inicial, la estrella al KP adoptado y el rombo vacío al cruce exploratorio sobre el perfil. Las regresiones adicionales conservan la selección adoptada como referencia.",
+    "entrada_local_privada": false,
+    "funcion": "Graficos.regresion(56,12)",
+    "observacion": ""
+  }
+]

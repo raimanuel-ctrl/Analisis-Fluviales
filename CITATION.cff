@@ -5,8 +5,8 @@ type: software
 authors:
   - family-names: "Sanchez Mosqueira"
     given-names: "Raimundo"
-version: "2026.11.09"
-date-released: 2026-11-09
+version: "2026.11.10"
+date-released: 2026-11-10
 repository-code: "https://github.com/raimanuel-ctrl/Analisis-Fluviales"
 url: "https://github.com/raimanuel-ctrl/Analisis-Fluviales/tree/main/memoria"
 license: MIT

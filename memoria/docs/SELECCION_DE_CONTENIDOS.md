@@ -1,6 +1,6 @@
 # Material conservado y alcance
 
-La entrada principal reúne únicamente lo necesario para seguir las decisiones y reproducir las tablas finales desde derivados: ocho notebooks, dos módulos de ejecución, los instrumentos de selección, dieciocho perfiles, los catálogos B/Pₜ/KP y trece tablas de presentación.
+La entrada principal reúne únicamente lo necesario para seguir las decisiones y reproducir las tablas finales desde derivados: nueve notebooks, tres módulos de ejecución, los instrumentos de selección, dieciocho perfiles, los catálogos B/Pₜ/KP y trece tablas de presentación.
 
 El material anterior queda en `archivo/` con una advertencia de versión. Incluye los notebooks metodológicos, sus módulos y los datos derivados de octubre. Se conserva para rastrear el procesamiento y recuperar las decisiones anteriores. Para reproducir el árbol de rutas original de esa publicación debe utilizarse el commit histórico indicado en su README.
 
@@ -9,3 +9,5 @@ Los notebooks de reuniones, pruebas de segmentación múltiple, respaldos autom�
 El DEM, las capas de drenaje y la compilación geológica previamente publicados siguen en `data/`. El DEM conserva Git LFS y no se duplica en la carpeta de la memoria. Los catálogos espaciales originales de terrazas, Ages_Final y los datos no publicados de colaboradores mantienen su acceso local.
 
 Las tres figuras generadas por la síntesis son gráficos de comprobación desde datos públicos derivados. Las composiciones finales de mapas y la superposición con el catálogo costero completo permanecen en los documentos de la memoria y en el material local autorizado. Esta distinción evita publicar un HTML que esconda dentro de sí ubicaciones excluidas de la distribución.
+
+El notebook 09 y src/graficos_informe.py completan la reproducción de los gráficos del informe. Sus entradas incluyen los ensayos y diagnósticos citados en esas figuras. Los ocho mapas quedan excluidos y las tres dependencias bibliográficas o externas se declaran por separado.

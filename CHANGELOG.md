@@ -1,5 +1,14 @@
 # Registro de cambios
 
+## 2026-11-10 - Formulas y reproduccion de graficos
+
+- Explica las ecuaciones, unidades y supuestos en ambos README.
+- Agrega el notebook 09 y un generador numerado para los graficos del informe.
+- Verifica 47 graficos/esquemas propios y distingue una reproduccion bibliografica.
+- Excluye ocho mapas; de la figura 14 se genera solo el perfil.
+- Conserva como entradas locales las comparaciones externas de las figuras 2, 16 y 29.
+- Contrasta por OLS los 68 ajustes de regresion y los 216 de incision.
+
 ## 2026-11-09 - Material final de la memoria
 
 - Reune el flujo vigente en memoria/ y conserva octubre en archivo/.
